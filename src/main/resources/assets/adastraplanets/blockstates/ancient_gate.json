@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "open=false": {
+      "model": "adastraplanets:block/ancient_gate"
+    },
+    "open=true": {
+      "model": "adastraplanets:block/ancient_gate_open"
+    }
+  }
+}

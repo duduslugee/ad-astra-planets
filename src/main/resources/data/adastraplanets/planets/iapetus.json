@@ -1,0 +1,10 @@
+{
+  "dimension": "adastraplanets:iapetus",
+  "gravity": 0.223,
+  "orbit": "adastraplanets:iapetus_orbit",
+  "oxygen": false,
+  "solar_power": 2,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -163,
+  "tier": 6
+}

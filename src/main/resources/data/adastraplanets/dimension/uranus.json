@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:uranus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:uranus",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:uranus_plains",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:uranus_pinnacles",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.15000000000000002,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

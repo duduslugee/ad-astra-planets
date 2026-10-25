@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:titania",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:titania",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:titania_plains",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              0.09999999999999999
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:titania_chasmata",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.2,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

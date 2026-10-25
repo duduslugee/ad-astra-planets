@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.adastraplanets.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ModUtilsMixin",
+    "PlanetsMenuProviderMixin",
+    "RocketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "client.PlanetsScreenMixin"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "liner_head",
+    "liner_chest",
+    "liner_legs",
+    "liner_feet"
+  ]
+}

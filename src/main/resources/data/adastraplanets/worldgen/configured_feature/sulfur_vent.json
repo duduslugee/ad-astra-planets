@@ -1,0 +1,26 @@
+{
+  "type": "adastraplanets:geyser",
+  "config": {
+    "geyser": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:sulfur_vent"
+      }
+    },
+    "frost": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:cinder"
+      }
+    },
+    "frost_radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    },
+    "can_replace": [
+      "adastraplanets:sulfur_crust",
+      "adastraplanets:cinder"
+    ]
+  }
+}

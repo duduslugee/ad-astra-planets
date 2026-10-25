@@ -1,0 +1,44 @@
+{
+  "type": "adastraplanets:hydrothermal_vent",
+  "config": {
+    "chimney": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:chimney_rock"
+      }
+    },
+    "vent": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:hydrothermal_vent"
+      }
+    },
+    "ore": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:abyssium_ore"
+      }
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 3,
+      "max_inclusive": 9
+    },
+    "mound_radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "ore_radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 3,
+      "max_inclusive": 4
+    },
+    "ore_count": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 4
+    },
+    "can_replace": "#adastraplanets:hydrothermal_vent_replaceable"
+  }
+}

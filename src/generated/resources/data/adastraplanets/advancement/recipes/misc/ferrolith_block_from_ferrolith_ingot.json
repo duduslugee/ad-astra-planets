@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ferrolith_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/ferrolith"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:ferrolith_block_from_ferrolith_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ferrolith_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:ferrolith_block_from_ferrolith_ingot"
+    ]
+  }
+}

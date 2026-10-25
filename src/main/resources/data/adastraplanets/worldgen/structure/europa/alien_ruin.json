@@ -1,0 +1,15 @@
+{
+  "type": "adastraplanets:levelled_jigsaw",
+  "biomes": [
+    "adastraplanets:europa_ice_shell",
+    "adastraplanets:europa_subsurface_ocean"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "adastraplanets:europa/alien_ruin",
+  "size": 1,
+  "offset": -7,
+  "footprint_radius": 9,
+  "max_slope": 6
+}

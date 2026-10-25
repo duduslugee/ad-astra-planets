@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "adastraplanets:nitralis"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "adastraplanets:mordrine"
+    }
+  ],
+  "type": "productivebees:bee_conversion",
+  "source": "adastraplanets:nitralis",
+  "result": "adastraplanets:mordrine",
+  "item": {
+    "tag": "c:storage_blocks/mordrine"
+  }
+}

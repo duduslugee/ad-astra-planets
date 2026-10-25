@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:rhea",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:rhea",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:rhea_craters",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              0.2
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:rhea_wispy_terrain",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.3,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

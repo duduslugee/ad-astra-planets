@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "adastraplanets:block/ancient_brick_slab"
+    },
+    "type=double": {
+      "model": "adastraplanets:block/ancient_bricks"
+    },
+    "type=top": {
+      "model": "adastraplanets:block/ancient_brick_slab_top"
+    }
+  }
+}

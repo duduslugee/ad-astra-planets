@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:tide_crystal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tide_crystal_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:gems/tide_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tide_crystal_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:tide_crystal_block"
+    ]
+  }
+}

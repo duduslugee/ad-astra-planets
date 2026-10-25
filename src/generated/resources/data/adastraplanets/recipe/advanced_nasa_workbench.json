@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "ad_astra:calorite_plates"
+    },
+    "E": {
+      "item": "adastraplanets:ember_light_core"
+    },
+    "H": {
+      "tag": "c:plates/helionite"
+    },
+    "W": {
+      "item": "ad_astra:nasa_workbench"
+    }
+  },
+  "pattern": [
+    "CHC",
+    "HWH",
+    "CEC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:advanced_nasa_workbench"
+  }
+}

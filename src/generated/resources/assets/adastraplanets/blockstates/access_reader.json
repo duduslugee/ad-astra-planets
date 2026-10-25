@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,granted=false": {
+      "model": "adastraplanets:block/access_reader",
+      "y": 90
+    },
+    "facing=east,granted=true": {
+      "model": "adastraplanets:block/access_reader_granted",
+      "y": 90
+    },
+    "facing=north,granted=false": {
+      "model": "adastraplanets:block/access_reader"
+    },
+    "facing=north,granted=true": {
+      "model": "adastraplanets:block/access_reader_granted"
+    },
+    "facing=south,granted=false": {
+      "model": "adastraplanets:block/access_reader",
+      "y": 180
+    },
+    "facing=south,granted=true": {
+      "model": "adastraplanets:block/access_reader_granted",
+      "y": 180
+    },
+    "facing=west,granted=false": {
+      "model": "adastraplanets:block/access_reader",
+      "y": 270
+    },
+    "facing=west,granted=true": {
+      "model": "adastraplanets:block/access_reader_granted",
+      "y": 270
+    }
+  }
+}

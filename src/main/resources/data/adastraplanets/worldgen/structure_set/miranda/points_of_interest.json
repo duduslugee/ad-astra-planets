@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:miranda/crashed_probe",
+      "weight": 4
+    },
+    {
+      "structure": "adastraplanets:miranda/abandoned_camp",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:miranda/meteorite_crater",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:miranda/ice_cave",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:miranda/alien_ruin",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 7,
+    "salt": 51738027
+  }
+}

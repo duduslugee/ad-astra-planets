@@ -1,0 +1,11 @@
+{
+  "type": "adastraplanets:io",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:io",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "adastraplanets:io_sulfur_plains"
+    }
+  }
+}

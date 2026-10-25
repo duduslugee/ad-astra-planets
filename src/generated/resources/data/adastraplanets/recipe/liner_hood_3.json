@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "adastraplanets:liner_hood_2"
+    },
+    "P": {
+      "tag": "c:plates/helionite"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PLP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:liner_hood_3"
+  }
+}

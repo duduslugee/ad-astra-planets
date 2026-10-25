@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aged_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adastraplanets:aged_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/aged_rock_from_aged_cobblestone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aged_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/aged_rock_from_aged_cobblestone"
+    ]
+  }
+}

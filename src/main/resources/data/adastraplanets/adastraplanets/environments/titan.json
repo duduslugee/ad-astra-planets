@@ -1,0 +1,8 @@
+{
+  "dimensions": [
+    "adastraplanets:titan"
+  ],
+  "thermal": 3,
+  "pressure": 3,
+  "pressure_kind": "high"
+}

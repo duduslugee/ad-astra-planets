@@ -1,0 +1,10 @@
+{
+  "dimension": "adastraplanets:dysnomia",
+  "gravity": 0.2,
+  "orbit": "adastraplanets:dysnomia_orbit",
+  "oxygen": false,
+  "solar_power": 1,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -243,
+  "tier": 10
+}

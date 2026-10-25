@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:miranda",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:miranda",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:miranda_patchwork",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              0.3
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:miranda_coronae",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.39999999999999997,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

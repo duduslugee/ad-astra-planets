@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_albedon_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/albedon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:albedon_ingot_from_albedon_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_albedon_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:albedon_ingot_from_albedon_block"
+    ]
+  }
+}

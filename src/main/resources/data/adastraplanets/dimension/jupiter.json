@@ -1,0 +1,36 @@
+{
+  "type": "adastraplanets:jupiter",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:jupiter",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:jupiter_zone",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": 0.5
+          }
+        },
+        {
+          "biome": "adastraplanets:jupiter_belt",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": -0.5
+          }
+        }
+      ]
+    }
+  }
+}

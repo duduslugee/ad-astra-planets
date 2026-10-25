@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "adastraplanets:block/icebound_rock",
+    "overlay": "adastraplanets:block/ferrolith_ore_overlay",
+    "particle": "adastraplanets:block/icebound_rock"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:umbrite_fin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_umbrite_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:plates/umbrite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_umbrite_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:umbrite_fin"
+    ]
+  }
+}

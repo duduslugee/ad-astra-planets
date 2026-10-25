@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cryo_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adastraplanets:cryo_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/cryo_rock_from_cryo_cobblestone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cryo_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/cryo_rock_from_cryo_cobblestone"
+    ]
+  }
+}

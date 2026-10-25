@@ -1,0 +1,10 @@
+{
+  "sun": "ad_astra:textures/environment/red_sun.png",
+  "sun_size": 18,
+  "orbit_color": "#7A2E1F",
+  "planets": [
+    { "texture": "ad_astra:textures/environment/mars.png", "orbit": 1, "speed": 2.0, "planet": "demo:ember" },
+    { "texture": "ad_astra:textures/environment/venus.png", "orbit": 2, "speed": 1.2, "phase": 90, "planet": "demo:cinder" },
+    { "texture": "ad_astra:textures/environment/glacio.png", "orbit": 4, "size": 10, "speed": 0.5, "phase": 200, "planet": "demo:frostfall" }
+  ]
+}

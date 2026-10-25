@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pallorite_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:plates/pallorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:pallorite_nose_cone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pallorite_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:pallorite_nose_cone"
+    ]
+  }
+}

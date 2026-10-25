@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:gravel",
+      "xz_scale": 0.35,
+      "y_scale": 0.0
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 0.12,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "minecraft:surface",
+        "xz_scale": 1.5,
+        "y_scale": 0.0
+      }
+    }
+  }
+}

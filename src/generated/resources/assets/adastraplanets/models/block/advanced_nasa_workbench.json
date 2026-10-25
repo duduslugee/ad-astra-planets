@@ -1,0 +1,7 @@
+{
+  "parent": "ad_astra:block/nasa_workbench",
+  "textures": {
+    "0": "adastraplanets:block/advanced_nasa_workbench",
+    "particle": "adastraplanets:block/advanced_nasa_workbench"
+  }
+}

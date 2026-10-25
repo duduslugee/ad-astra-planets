@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:eris/last_door",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 40,
+    "salt": 61833071,
+    "exclusion_zone": {
+      "other_set": "adastraplanets:eris/points_of_interest",
+      "chunk_count": 6
+    }
+  }
+}

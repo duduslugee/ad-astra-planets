@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "adastraplanets:helionite"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "adastraplanets:igneum"
+    }
+  ],
+  "type": "productivebees:bee_conversion",
+  "source": "adastraplanets:helionite",
+  "result": "adastraplanets:igneum",
+  "item": {
+    "tag": "c:storage_blocks/igneum"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "adastraplanets:block/tinted_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "minecraft:block/medium_amethyst_bud"
+  }
+}

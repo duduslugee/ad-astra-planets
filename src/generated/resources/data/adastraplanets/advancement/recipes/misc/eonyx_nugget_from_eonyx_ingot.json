@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_eonyx_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/eonyx"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:eonyx_nugget_from_eonyx_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_eonyx_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:eonyx_nugget_from_eonyx_ingot"
+    ]
+  }
+}

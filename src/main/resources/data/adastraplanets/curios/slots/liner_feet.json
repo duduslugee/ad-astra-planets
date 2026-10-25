@@ -1,0 +1,7 @@
+{
+  "order": 904,
+  "icon": "adastraplanets:slot/liner_feet",
+  "validators": [
+    "curios:tag"
+  ]
+}

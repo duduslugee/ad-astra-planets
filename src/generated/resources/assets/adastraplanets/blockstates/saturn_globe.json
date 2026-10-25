@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "powered=false,waterlogged=false": {
+      "model": "adastraplanets:block/saturn_globe"
+    },
+    "powered=false,waterlogged=true": {
+      "model": "adastraplanets:block/saturn_globe"
+    },
+    "powered=true,waterlogged=false": {
+      "model": "adastraplanets:block/saturn_globe"
+    },
+    "powered=true,waterlogged=true": {
+      "model": "adastraplanets:block/saturn_globe"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:rocket_enabled",
+      "rocket": "adastraplanets:tier_7_rocket"
+    }
+  ],
+  "type": "adastraplanets:advanced_nasa_workbench",
+  "ingredients": [
+    {
+      "item": "adastraplanets:ferrolith_nose_cone"
+    },
+    {
+      "tag": "c:storage_blocks/cassinium"
+    },
+    {
+      "tag": "c:storage_blocks/cassinium"
+    },
+    {
+      "tag": "c:storage_blocks/cassinium"
+    },
+    {
+      "tag": "c:storage_blocks/cassinium"
+    },
+    {
+      "tag": "c:storage_blocks/cassinium"
+    },
+    {
+      "tag": "c:storage_blocks/cassinium"
+    },
+    {
+      "item": "adastraplanets:vesperine_fin"
+    },
+    {
+      "item": "adastraplanets:nivalum_tank"
+    },
+    {
+      "item": "adastraplanets:nivalum_tank"
+    },
+    {
+      "item": "adastraplanets:vesperine_fin"
+    },
+    {
+      "item": "adastraplanets:vesperine_fin"
+    },
+    {
+      "item": "adastraplanets:tholinar_engine"
+    },
+    {
+      "item": "adastraplanets:vesperine_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:tier_7_rocket"
+  }
+}

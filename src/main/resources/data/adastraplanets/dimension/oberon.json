@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:oberon",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:oberon",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:oberon_craters",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              0.15000000000000002
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:oberon_highlands",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.25,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

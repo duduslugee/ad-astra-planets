@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_helionite_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:plates/helionite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:advanced_nasa_workbench"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_helionite_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:advanced_nasa_workbench"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_obscurex": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/obscurex"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:raw_obscurex_block_from_raw_obscurex"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_obscurex"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:raw_obscurex_block_from_raw_obscurex"
+    ]
+  }
+}

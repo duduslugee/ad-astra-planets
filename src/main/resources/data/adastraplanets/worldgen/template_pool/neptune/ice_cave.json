@@ -1,0 +1,32 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "adastraplanets:neptune/ice_cave_0",
+        "processors": "adastraplanets:solid_only",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "adastraplanets:neptune/ice_cave_1",
+        "processors": "adastraplanets:solid_only",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "adastraplanets:neptune/ice_cave_2",
+        "processors": "adastraplanets:solid_only",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

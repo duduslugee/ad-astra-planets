@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/pallorite"
+    },
+    "N": {
+      "item": "ad_astra:rocket_nose_cone"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#N#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:pallorite_nose_cone"
+  }
+}

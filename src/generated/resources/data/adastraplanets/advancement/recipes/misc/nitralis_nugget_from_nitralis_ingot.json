@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nitralis_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/nitralis"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:nitralis_nugget_from_nitralis_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nitralis_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:nitralis_nugget_from_nitralis_ingot"
+    ]
+  }
+}

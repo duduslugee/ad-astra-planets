@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:ingots/umbrite"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "adastraplanets:umbrite_nugget"
+  }
+}

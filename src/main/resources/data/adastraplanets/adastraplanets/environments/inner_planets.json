@@ -1,0 +1,12 @@
+{
+  "dimensions": [
+    "ad_astra:venus_orbit",
+    "ad_astra:mercury",
+    "ad_astra:mercury_orbit",
+    "ad_astra:glacio",
+    "ad_astra:glacio_orbit"
+  ],
+  "thermal": 2,
+  "pressure": 2,
+  "pressure_kind": "low"
+}

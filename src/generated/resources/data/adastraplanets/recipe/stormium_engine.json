@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/stormium"
+    },
+    "E": {
+      "item": "adastraplanets:helionite_engine"
+    }
+  },
+  "pattern": [
+    "###",
+    "#E#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:stormium_engine"
+  }
+}

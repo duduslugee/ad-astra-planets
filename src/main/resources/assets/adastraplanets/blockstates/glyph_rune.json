@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "glyph=sun,lit=false": {
+      "model": "adastraplanets:block/glyph_rune_sun"
+    },
+    "glyph=sun,lit=true": {
+      "model": "adastraplanets:block/glyph_rune_sun_lit"
+    },
+    "glyph=ring,lit=false": {
+      "model": "adastraplanets:block/glyph_rune_ring"
+    },
+    "glyph=ring,lit=true": {
+      "model": "adastraplanets:block/glyph_rune_ring_lit"
+    },
+    "glyph=moon,lit=false": {
+      "model": "adastraplanets:block/glyph_rune_moon"
+    },
+    "glyph=moon,lit=true": {
+      "model": "adastraplanets:block/glyph_rune_moon_lit"
+    },
+    "glyph=star,lit=false": {
+      "model": "adastraplanets:block/glyph_rune_star"
+    },
+    "glyph=star,lit=true": {
+      "model": "adastraplanets:block/glyph_rune_star_lit"
+    },
+    "glyph=wave,lit=false": {
+      "model": "adastraplanets:block/glyph_rune_wave"
+    },
+    "glyph=wave,lit=true": {
+      "model": "adastraplanets:block/glyph_rune_wave_lit"
+    },
+    "glyph=eye,lit=false": {
+      "model": "adastraplanets:block/glyph_rune_eye"
+    },
+    "glyph=eye,lit=true": {
+      "model": "adastraplanets:block/glyph_rune_eye_lit"
+    }
+  }
+}

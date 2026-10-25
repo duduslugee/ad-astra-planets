@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:pluto/crashed_probe",
+      "weight": 4
+    },
+    {
+      "structure": "adastraplanets:pluto/abandoned_camp",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:pluto/meteorite_crater",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:pluto/ice_cave",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:pluto/alien_ruin",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 7,
+    "salt": 51738027
+  }
+}

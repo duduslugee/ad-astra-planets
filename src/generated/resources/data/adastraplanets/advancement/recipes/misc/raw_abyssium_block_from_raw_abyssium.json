@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_abyssium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/abyssium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:raw_abyssium_block_from_raw_abyssium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_abyssium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:raw_abyssium_block_from_raw_abyssium"
+    ]
+  }
+}

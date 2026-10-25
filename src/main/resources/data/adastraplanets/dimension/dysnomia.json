@@ -1,0 +1,11 @@
+{
+  "type": "adastraplanets:dysnomia",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:dysnomia",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "adastraplanets:dysnomia_fragments"
+    }
+  }
+}

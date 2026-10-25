@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_frost_crystal_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:gems/frost_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:frost_crystal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_frost_crystal_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:frost_crystal_block"
+    ]
+  }
+}

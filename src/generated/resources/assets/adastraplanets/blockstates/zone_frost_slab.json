@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "adastraplanets:block/zone_frost_slab"
+    },
+    "type=double": {
+      "model": "adastraplanets:block/zone_frost"
+    },
+    "type=top": {
+      "model": "adastraplanets:block/zone_frost_slab_top"
+    }
+  }
+}

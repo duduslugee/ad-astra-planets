@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:charon",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:charon",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:charon_plains",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              0.09999999999999999
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:charon_red_cap",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.2,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

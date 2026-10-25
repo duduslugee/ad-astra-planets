@@ -1,0 +1,11 @@
+{
+  "type": "adastraplanets:deimos",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:deimos",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "adastraplanets:deimos_dust_plains"
+    }
+  }
+}

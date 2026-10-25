@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:pluto/sealed_heart",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 30,
+    "salt": 52280417,
+    "exclusion_zone": {
+      "other_set": "adastraplanets:pluto/points_of_interest",
+      "chunk_count": 6
+    }
+  }
+}

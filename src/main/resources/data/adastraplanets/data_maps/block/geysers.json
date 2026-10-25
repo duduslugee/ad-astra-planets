@@ -1,0 +1,59 @@
+{
+  "values": {
+    "adastraplanets:geyser": {
+      "interval": 240,
+      "duration": 60,
+      "warning": 40,
+      "height": 14,
+      "strength": 0.9
+    },
+    "adastraplanets:sulfur_vent": {
+      "interval": 320,
+      "duration": 80,
+      "warning": 50,
+      "height": 18,
+      "strength": 1.0,
+      "particle": {
+        "type": "minecraft:dust",
+        "color": [
+          1.0,
+          0.86,
+          0.25
+        ],
+        "scale": 3.0
+      },
+      "spray": {
+        "type": "minecraft:lava"
+      }
+    },
+    "adastraplanets:nitrogen_vent": {
+      "interval": 300,
+      "duration": 90,
+      "warning": 40,
+      "height": 22,
+      "strength": 1.0,
+      "particle": {
+        "type": "minecraft:dust",
+        "color": [
+          0.22,
+          0.2,
+          0.24
+        ],
+        "scale": 3.0
+      }
+    },
+    "adastraplanets:forge_vent": {
+      "interval": 100,
+      "duration": 30,
+      "warning": 30,
+      "height": 5,
+      "strength": 0.8,
+      "particle": {
+        "type": "minecraft:flame"
+      },
+      "spray": {
+        "type": "minecraft:lava"
+      }
+    }
+  }
+}

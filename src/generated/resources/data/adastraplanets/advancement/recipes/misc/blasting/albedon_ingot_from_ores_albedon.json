@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_albedon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/albedon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/albedon_ingot_from_ores_albedon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_albedon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/albedon_ingot_from_ores_albedon"
+    ]
+  }
+}

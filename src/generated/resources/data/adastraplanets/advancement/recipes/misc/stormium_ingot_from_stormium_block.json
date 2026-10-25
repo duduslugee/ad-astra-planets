@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stormium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/stormium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:stormium_ingot_from_stormium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stormium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:stormium_ingot_from_stormium_block"
+    ]
+  }
+}

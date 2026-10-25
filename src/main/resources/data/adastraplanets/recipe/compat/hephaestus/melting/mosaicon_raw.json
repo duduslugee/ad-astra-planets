@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    }
+  ],
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "tag": "c:raw_materials/mosaicon"
+  },
+  "result": {
+    "amount": 180,
+    "id": "adastraplanets:molten_mosaicon"
+  },
+  "temperature": 1125,
+  "time": 150
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "adastraplanets:block/tinted_top_overlay",
+  "textures": {
+    "base": "minecraft:block/packed_ice",
+    "top_overlay": "adastraplanets:block/sulfur_vent_top_overlay"
+  }
+}

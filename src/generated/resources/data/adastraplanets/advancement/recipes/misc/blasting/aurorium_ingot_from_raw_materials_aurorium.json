@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_materials_aurorium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/aurorium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/aurorium_ingot_from_raw_materials_aurorium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_materials_aurorium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/aurorium_ingot_from_raw_materials_aurorium"
+    ]
+  }
+}

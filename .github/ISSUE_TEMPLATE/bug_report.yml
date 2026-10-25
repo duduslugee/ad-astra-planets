@@ -1,0 +1,39 @@
+name: Bug report / Relatar bug
+description: Something broke, crashed or looks wrong / Algo quebrou, crashou ou está estranho
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! English or Portuguese are both fine. / Obrigado por relatar! Pode escrever em inglês ou português.
+  - type: input
+    id: version
+    attributes:
+      label: Ad Astra Planets version / Versão
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: adastra
+    attributes:
+      label: Ad Astra and NeoForge versions / Versões do Ad Astra e NeoForge
+      placeholder: Ad Astra 1.16.26, NeoForge 21.1.264
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / O que aconteceu?
+      description: What you did, what you expected and what happened instead. / O que você fez, o que esperava e o que aconteceu.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash report or log / Crash report ou log
+      description: Paste a link (mclo.gs, gist) to the crash report or logs/latest.log. / Cole um link (mclo.gs, gist) para o crash report ou logs/latest.log.
+  - type: textarea
+    id: mods
+    attributes:
+      label: Modpack or other mods / Modpack ou outros mods
+      description: Name of the modpack, or the other mods installed. / Nome do modpack, ou os outros mods instalados.

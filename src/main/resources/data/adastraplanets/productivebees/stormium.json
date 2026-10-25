@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#c66e3e",
+  "secondaryColor": "#8a1f16",
+  "particleColor": "#efcda1",
+  "flowerTag": "c:storage_blocks/stormium",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

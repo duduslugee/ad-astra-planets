@@ -1,0 +1,15 @@
+{
+  "dimensions": [
+    "adastraplanets:enceladus",
+    "adastraplanets:enceladus_orbit",
+    "adastraplanets:rhea",
+    "adastraplanets:rhea_orbit",
+    "adastraplanets:iapetus",
+    "adastraplanets:iapetus_orbit",
+    "adastraplanets:titan_orbit",
+    "adastraplanets:saturn_orbit"
+  ],
+  "thermal": 3,
+  "pressure": 3,
+  "pressure_kind": "low"
+}

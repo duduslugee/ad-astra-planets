@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "ad_astra:block/mercury_stone",
+    "overlay": "adastraplanets:block/helionite_ore_overlay",
+    "particle": "ad_astra:block/mercury_stone"
+  }
+}

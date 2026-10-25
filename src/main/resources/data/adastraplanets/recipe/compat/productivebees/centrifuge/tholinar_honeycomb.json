@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ],
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "adastraplanets:tholinar"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+    {
+      "item": {
+        "item": "adastraplanets:raw_tholinar"
+      },
+      "chance": 0.4
+    },
+    {
+      "item": {
+        "item": "productivebees:wax"
+      }
+    }
+  ]
+}

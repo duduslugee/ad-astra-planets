@@ -1,0 +1,10 @@
+{
+  "dimension": "adastraplanets:rhea",
+  "gravity": 0.264,
+  "orbit": "adastraplanets:rhea_orbit",
+  "oxygen": false,
+  "solar_power": 2,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -197,
+  "tier": 6
+}

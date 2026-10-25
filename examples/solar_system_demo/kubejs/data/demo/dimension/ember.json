@@ -1,0 +1,11 @@
+{
+  "type": "ad_astra:mars",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "ad_astra:mars",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "ad_astra:martian_wastelands"
+    }
+  }
+}

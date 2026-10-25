@@ -1,0 +1,229 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_0_0"
+      },
+      "when": {
+        "x": "0",
+        "z": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_0_1"
+      },
+      "when": {
+        "x": "0",
+        "z": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_0_2"
+      },
+      "when": {
+        "x": "0",
+        "z": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_0_3"
+      },
+      "when": {
+        "x": "0",
+        "z": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_0_4"
+      },
+      "when": {
+        "x": "0",
+        "z": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_1_0"
+      },
+      "when": {
+        "x": "1",
+        "z": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_1_1"
+      },
+      "when": {
+        "x": "1",
+        "z": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_1_2"
+      },
+      "when": {
+        "x": "1",
+        "z": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_1_3"
+      },
+      "when": {
+        "x": "1",
+        "z": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_1_4"
+      },
+      "when": {
+        "x": "1",
+        "z": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_2_0"
+      },
+      "when": {
+        "x": "2",
+        "z": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_2_1"
+      },
+      "when": {
+        "x": "2",
+        "z": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_2_2"
+      },
+      "when": {
+        "x": "2",
+        "z": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_2_3"
+      },
+      "when": {
+        "x": "2",
+        "z": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_2_4"
+      },
+      "when": {
+        "x": "2",
+        "z": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_3_0"
+      },
+      "when": {
+        "x": "3",
+        "z": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_3_1"
+      },
+      "when": {
+        "x": "3",
+        "z": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_3_2"
+      },
+      "when": {
+        "x": "3",
+        "z": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_3_3"
+      },
+      "when": {
+        "x": "3",
+        "z": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_3_4"
+      },
+      "when": {
+        "x": "3",
+        "z": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_4_0"
+      },
+      "when": {
+        "x": "4",
+        "z": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_4_1"
+      },
+      "when": {
+        "x": "4",
+        "z": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_4_2"
+      },
+      "when": {
+        "x": "4",
+        "z": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_4_3"
+      },
+      "when": {
+        "x": "4",
+        "z": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "adastraplanets:block/large_launch_pad_4_4"
+      },
+      "when": {
+        "x": "4",
+        "z": "4"
+      }
+    }
+  ]
+}

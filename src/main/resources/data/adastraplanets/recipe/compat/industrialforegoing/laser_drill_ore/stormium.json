@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ],
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:orange_laser_lens"
+  },
+  "output": {
+    "count": 1,
+    "tag": "c:raw_materials/stormium"
+  },
+  "rarity": [
+    {
+      "biome_filter": {
+        "blacklist": [],
+        "whitelist": []
+      },
+      "depth_min": 40,
+      "depth_max": 160,
+      "dimension_filter": {
+        "blacklist": [],
+        "whitelist": [
+          "adastraplanets:jupiter"
+        ]
+      },
+      "weight": 8
+    }
+  ]
+}

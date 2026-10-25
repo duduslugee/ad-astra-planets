@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "adastraplanets:enceladus_snow_plains",
+    "adastraplanets:enceladus_tiger_stripes",
+    "adastraplanets:rhea_craters",
+    "adastraplanets:rhea_wispy_terrain",
+    "adastraplanets:iapetus_dark_face",
+    "adastraplanets:iapetus_bright_face",
+    "adastraplanets:titan_lakes",
+    "adastraplanets:titan_highlands",
+    "adastraplanets:titan_dunes"
+  ],
+  "features": "adastraplanets:halo_geode",
+  "step": "local_modifications"
+}

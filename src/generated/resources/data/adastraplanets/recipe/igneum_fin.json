@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/igneum"
+    },
+    "F": {
+      "item": "adastraplanets:umbrite_fin"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#F#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:igneum_fin"
+  }
+}

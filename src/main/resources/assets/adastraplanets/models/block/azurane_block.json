@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "adastraplanets:connected",
+  "textures": {
+    "sheet": "adastraplanets:block/azurane_block_connected",
+    "particle": "adastraplanets:block/azurane_block"
+  }
+}

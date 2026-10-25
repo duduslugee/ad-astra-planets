@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_previous_liner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adastraplanets:liner_leggings_4"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:liner_leggings_5"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_previous_liner"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:liner_leggings_5"
+    ]
+  }
+}

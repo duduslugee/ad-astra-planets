@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "adastraplanets:liner_vest_4"
+    },
+    "P": {
+      "tag": "c:plates/tempestine"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PLP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:liner_vest_5"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#89a8b9",
+  "secondaryColor": "#525374",
+  "particleColor": "#c2e8e4",
+  "flowerTag": "c:storage_blocks/mosaicon",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

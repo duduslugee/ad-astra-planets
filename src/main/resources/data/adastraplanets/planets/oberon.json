@@ -1,0 +1,10 @@
+{
+  "dimension": "adastraplanets:oberon",
+  "gravity": 0.346,
+  "orbit": "adastraplanets:oberon_orbit",
+  "oxygen": false,
+  "solar_power": 1,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -198,
+  "tier": 7
+}

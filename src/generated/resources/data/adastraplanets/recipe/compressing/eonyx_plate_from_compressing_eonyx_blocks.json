@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 800,
+  "energy": 20,
+  "ingredient": {
+    "tag": "c:storage_blocks/eonyx"
+  },
+  "result": {
+    "count": 9,
+    "id": "adastraplanets:eonyx_plate"
+  }
+}

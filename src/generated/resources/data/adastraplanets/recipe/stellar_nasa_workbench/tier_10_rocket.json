@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:rocket_enabled",
+      "rocket": "adastraplanets:tier_10_rocket"
+    }
+  ],
+  "type": "adastraplanets:stellar_nasa_workbench",
+  "ingredients": [
+    {
+      "item": "adastraplanets:mordrine_nose_cone"
+    },
+    {
+      "tag": "c:storage_blocks/cordium"
+    },
+    {
+      "tag": "c:storage_blocks/cordium"
+    },
+    {
+      "tag": "c:storage_blocks/cordium"
+    },
+    {
+      "tag": "c:storage_blocks/cordium"
+    },
+    {
+      "tag": "c:storage_blocks/cordium"
+    },
+    {
+      "tag": "c:storage_blocks/cordium"
+    },
+    {
+      "item": "adastraplanets:mordrine_fin"
+    },
+    {
+      "item": "adastraplanets:cordium_tank"
+    },
+    {
+      "item": "adastraplanets:cordium_tank"
+    },
+    {
+      "item": "adastraplanets:mordrine_fin"
+    },
+    {
+      "item": "adastraplanets:mordrine_fin"
+    },
+    {
+      "item": "adastraplanets:cordium_engine"
+    },
+    {
+      "item": "adastraplanets:mordrine_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:tier_10_rocket"
+  }
+}

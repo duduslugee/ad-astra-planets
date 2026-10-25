@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:option",
+      "option": "launch_pads.large_launch_pad"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_launch_pad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ad_astra:launch_pad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:large_launch_pad"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_launch_pad"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:large_launch_pad"
+    ]
+  }
+}

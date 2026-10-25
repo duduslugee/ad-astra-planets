@@ -1,0 +1,8 @@
+{
+  "dimensions": [
+    "adastraplanets:neptune"
+  ],
+  "thermal": 4,
+  "pressure": 4,
+  "pressure_kind": "high"
+}

@@ -1,0 +1,8 @@
+{
+  "dimensions": [
+    "ad_astra:venus"
+  ],
+  "thermal": 2,
+  "pressure": 2,
+  "pressure_kind": "high"
+}

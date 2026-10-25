@@ -1,0 +1,7 @@
+{
+  "parent": "adastraplanets:block/glow_overlay_cube",
+  "textures": {
+    "base": "adastraplanets:block/ancient_seal",
+    "glow": "adastraplanets:block/ancient_seal_glow"
+  }
+}

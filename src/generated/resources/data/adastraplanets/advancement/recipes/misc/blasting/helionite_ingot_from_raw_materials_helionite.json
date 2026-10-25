@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_materials_helionite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/helionite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/helionite_ingot_from_raw_materials_helionite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_materials_helionite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/helionite_ingot_from_raw_materials_helionite"
+    ]
+  }
+}

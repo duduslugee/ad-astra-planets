@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#a68b80",
+  "secondaryColor": "#4f2e22",
+  "particleColor": "#ebe6e3",
+  "flowerTag": "c:storage_blocks/vesperine",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "adastraplanets:connected",
+  "textures": {
+    "sheet": "adastraplanets:block/ferrolith_block_connected",
+    "particle": "adastraplanets:block/ferrolith_block"
+  }
+}

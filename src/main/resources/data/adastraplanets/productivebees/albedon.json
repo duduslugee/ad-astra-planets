@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#a7b8c6",
+  "secondaryColor": "#6c7588",
+  "particleColor": "#e1ecf1",
+  "flowerTag": "c:storage_blocks/albedon",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

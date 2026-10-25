@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glacial_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adastraplanets:glacial_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/glacial_rock_from_glacial_cobblestone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glacial_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/glacial_rock_from_glacial_cobblestone"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/abyssium"
+    },
+    "T": {
+      "item": "adastraplanets:umbrite_tank"
+    },
+    "|": {
+      "item": "ad_astra:steel_rod"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#T|",
+    "## "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:abyssium_tank"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/tholinar"
+    },
+    "E": {
+      "item": "adastraplanets:stormium_engine"
+    }
+  },
+  "pattern": [
+    "###",
+    "#E#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:tholinar_engine"
+  }
+}

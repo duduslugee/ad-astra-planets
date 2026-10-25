@@ -1,0 +1,4503 @@
+{
+ "adastraplanets:abyssal_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.abyssal_rock"
+   ]
+  }
+ ],
+ "adastraplanets:abyssal_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.europa"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.abyssal_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:abyssium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.abyssium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:abyssium_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_abyssium"
+   ]
+  }
+ ],
+ "adastraplanets:abyssium_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.abyssium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:abyssium_ore": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "tooltip.adastraplanets.where.europa_vents"
+   ]
+  }
+ ],
+ "adastraplanets:abyssium_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.abyssium_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:abyssium_tank": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.abyssium_plate",
+     "item.adastraplanets.umbrite_tank",
+     "item.ad_astra.steel_rod"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:access_card": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.sealed_heart"
+   ]
+  }
+ ],
+ "adastraplanets:access_reader": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.sealed_heart"
+   ]
+  }
+ ],
+ "adastraplanets:advanced_nasa_workbench": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.ad_astra.calorite_plates",
+     "item.adastraplanets.ember_light_core",
+     "item.adastraplanets.helionite_plate",
+     "item.ad_astra.nasa_workbench"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:aged_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.aged_rock"
+   ]
+  }
+ ],
+ "adastraplanets:aged_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.callisto"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.aged_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:albedon_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.albedon_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:albedon_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_albedon"
+   ]
+  }
+ ],
+ "adastraplanets:albedon_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.albedon_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:albedon_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.eris",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:albedon_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.albedon_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:amber_crystal_block": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.callisto",
+     "planet.adastraplanets.europa",
+     "planet.adastraplanets.ganymede",
+     "planet.adastraplanets.io"
+    ]
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.amber_crystal_shard"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:amber_crystal_cluster": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.callisto",
+     "planet.adastraplanets.europa",
+     "planet.adastraplanets.ganymede",
+     "planet.adastraplanets.io"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:amber_crystal_shard": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.amber_crystal_cluster"
+   ]
+  }
+ ],
+ "adastraplanets:amber_light_core": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  }
+ ],
+ "adastraplanets:ammonia_frost": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.saturn"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_boots": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_brick_slab": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "block.adastraplanets.ancient_bricks"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ancient_brick_stairs": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "block.adastraplanets.ancient_bricks"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ancient_brick_wall": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "block.adastraplanets.ancient_bricks"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ancient_bricks": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "block.adastraplanets.ancient_stone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ancient_chestplate": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_dust": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.callisto"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_gate": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.alien_ruin"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_helmet": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_leggings": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_pillar": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "block.adastraplanets.ancient_stone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ancient_rune_stone": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.alien_ruin"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.abyssal_forge"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.alien_ruin"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.sealed_heart"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_seal": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.abyssal_forge"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.sealed_heart"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_ship": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  }
+ ],
+ "adastraplanets:ancient_stone": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.abyssal_forge"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.alien_ruin"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.abyssal_forge"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.alien_ruin"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.sealed_heart"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  }
+ ],
+ "adastraplanets:aurorium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.aurorium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:aurorium_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_aurorium"
+   ]
+  }
+ ],
+ "adastraplanets:aurorium_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.aurorium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:aurorium_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.ganymede",
+    "-64",
+    "60"
+   ]
+  }
+ ],
+ "adastraplanets:aurorium_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.aurorium_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:azurane_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.azurane_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:azurane_engine": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.azurane_plate",
+     "item.adastraplanets.pressure_diamond",
+     "item.adastraplanets.tholinar_engine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:azurane_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_azurane"
+   ]
+  }
+ ],
+ "adastraplanets:azurane_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.azurane_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:azurane_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.uranus",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:azurane_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.azurane_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:azure_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.uranus"
+   ]
+  }
+ ],
+ "adastraplanets:banded_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.miranda"
+   ]
+  }
+ ],
+ "adastraplanets:belt_frost": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.jupiter"
+   ]
+  }
+ ],
+ "adastraplanets:belt_frost_slab": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.jupiter"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "block.adastraplanets.belt_frost"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:bright_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.dysnomia"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.eris"
+   ]
+  }
+ ],
+ "adastraplanets:budding_amber_crystal": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.callisto",
+     "planet.adastraplanets.europa",
+     "planet.adastraplanets.ganymede",
+     "planet.adastraplanets.io"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:budding_cobalt_crystal": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.neptune",
+     "planet.adastraplanets.triton"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:budding_ember_crystal": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.deimos",
+     "planet.adastraplanets.phobos"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:budding_frost_crystal": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.dysnomia",
+     "planet.adastraplanets.eris"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:budding_halo_crystal": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.enceladus",
+     "planet.adastraplanets.iapetus",
+     "planet.adastraplanets.rhea",
+     "planet.adastraplanets.titan"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:budding_rose_crystal": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.charon",
+     "planet.adastraplanets.pluto"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:budding_tide_crystal": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.miranda",
+     "planet.adastraplanets.oberon",
+     "planet.adastraplanets.titania",
+     "planet.adastraplanets.uranus"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:callisto_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:carbon_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.carbon_rock"
+   ]
+  }
+ ],
+ "adastraplanets:carbon_regolith": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.dysnomia"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.oberon"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.phobos"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.triton"
+   ]
+  }
+ ],
+ "adastraplanets:carbon_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.phobos"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.carbon_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:cassinium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cassinium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:cassinium_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_cassinium"
+   ]
+  }
+ ],
+ "adastraplanets:cassinium_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cassinium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:cassinium_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.saturn",
+    "40",
+    "140"
+   ]
+  }
+ ],
+ "adastraplanets:cassinium_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.cassinium_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:cell_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.pluto"
+   ]
+  }
+ ],
+ "adastraplanets:charon_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:chasmal_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.chasmal_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:chasmal_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_chasmal"
+   ]
+  }
+ ],
+ "adastraplanets:chasmal_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.chasmal_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:chasmal_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.titania",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:chasmal_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.chasmal_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:chasmal_tank": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.chasmal_plate",
+     "item.adastraplanets.nivalum_tank",
+     "item.ad_astra.steel_rod"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:chimney_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.europa"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.hydrothermal_vent"
+   ]
+  }
+ ],
+ "adastraplanets:cinder": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.io"
+   ]
+  }
+ ],
+ "adastraplanets:cloud_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.cloud_rock"
+   ]
+  }
+ ],
+ "adastraplanets:cloud_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.jupiter"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.cloud_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:cobalt_crystal_block": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.neptune",
+     "planet.adastraplanets.triton"
+    ]
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cobalt_crystal_shard"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:cobalt_crystal_cluster": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.neptune",
+     "planet.adastraplanets.triton"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:cobalt_crystal_shard": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.cobalt_crystal_cluster"
+   ]
+  }
+ ],
+ "adastraplanets:cobalt_light_core": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.abyssal_forge"
+   ]
+  }
+ ],
+ "adastraplanets:column_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.column_rock"
+   ]
+  }
+ ],
+ "adastraplanets:column_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.saturn"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.column_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:cordium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cordium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:cordium_engine": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cordium_plate",
+     "item.adastraplanets.tempestine_engine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:cordium_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_cordium"
+   ]
+  }
+ ],
+ "adastraplanets:cordium_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cordium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:cordium_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.pluto",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:cordium_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.cordium_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:cordium_tank": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cordium_plate",
+     "item.adastraplanets.tempestine_tank",
+     "item.ad_astra.steel_rod"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:core_socket": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  }
+ ],
+ "adastraplanets:cracked_ancient_bricks": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.ancient_bricks"
+   ]
+  }
+ ],
+ "adastraplanets:crimson_frost": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.charon"
+   ]
+  }
+ ],
+ "adastraplanets:crust_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.europa"
+   ]
+  }
+ ],
+ "adastraplanets:cryo_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.cryo_rock"
+   ]
+  }
+ ],
+ "adastraplanets:cryo_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.triton"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.cryo_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:crystal_socket": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.abyssal_forge"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.alien_ruin"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.drowned_sanctuary"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.sealed_heart"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  }
+ ],
+ "adastraplanets:dark_regolith": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.ganymede"
+   ]
+  }
+ ],
+ "adastraplanets:deep_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.neptune"
+   ]
+  }
+ ],
+ "adastraplanets:deimos_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:drift_snow": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.eris"
+   ]
+  }
+ ],
+ "adastraplanets:dysnomia_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:ember_crystal_block": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.deimos",
+     "planet.adastraplanets.phobos"
+    ]
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.ember_crystal_shard"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ember_crystal_cluster": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.deimos",
+     "planet.adastraplanets.phobos"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ember_crystal_shard": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.ember_crystal_cluster"
+   ]
+  }
+ ],
+ "adastraplanets:ember_light_core": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.expedition_outpost"
+   ]
+  }
+ ],
+ "adastraplanets:enceladus_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:eonyx_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.eonyx_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:eonyx_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_eonyx"
+   ]
+  }
+ ],
+ "adastraplanets:eonyx_nose_cone": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.eonyx_plate",
+     "item.adastraplanets.pallorite_nose_cone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:eonyx_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.eonyx_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:eonyx_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.callisto",
+    "-64",
+    "60"
+   ]
+  }
+ ],
+ "adastraplanets:eonyx_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.eonyx_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:eris_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:europa_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:ferrolith_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.ferrolith_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ferrolith_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_ferrolith"
+   ]
+  }
+ ],
+ "adastraplanets:ferrolith_nose_cone": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.ferrolith_plate",
+     "item.adastraplanets.eonyx_nose_cone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ferrolith_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.ferrolith_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:ferrolith_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.rhea",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:ferrolith_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.ferrolith_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:fissure_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.enceladus"
+   ]
+  }
+ ],
+ "adastraplanets:forge_vent": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.abyssal_forge"
+   ]
+  }
+ ],
+ "adastraplanets:fracture_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.fracture_rock"
+   ]
+  }
+ ],
+ "adastraplanets:fracture_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.dysnomia"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.fracture_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:frost_crystal_block": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.dysnomia",
+     "planet.adastraplanets.eris"
+    ]
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.frost_crystal_shard"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:frost_crystal_cluster": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.dysnomia",
+     "planet.adastraplanets.eris"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:frost_crystal_shard": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.frost_crystal_cluster"
+   ]
+  }
+ ],
+ "adastraplanets:frost_light_core": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.last_door"
+   ]
+  }
+ ],
+ "adastraplanets:frost_regolith": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.charon"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.miranda"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.oberon"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.pluto"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.rhea"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.titania"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.triton"
+   ]
+  }
+ ],
+ "adastraplanets:ganymede_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:geyser": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.enceladus"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.europa"
+   ]
+  }
+ ],
+ "adastraplanets:glacial_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.glacial_rock"
+   ]
+  }
+ ],
+ "adastraplanets:glacial_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.enceladus"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.glacial_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:glacier_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.glacier_rock"
+   ]
+  }
+ ],
+ "adastraplanets:glacier_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.pluto"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.glacier_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:gloom_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.gloom_rock"
+   ]
+  }
+ ],
+ "adastraplanets:gloom_crystal": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.neptune"
+   ]
+  }
+ ],
+ "adastraplanets:gloom_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.neptune"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.gloom_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:glyph_rune": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  }
+ ],
+ "adastraplanets:groove_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.ganymede"
+   ]
+  }
+ ],
+ "adastraplanets:halo_crystal_block": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.enceladus",
+     "planet.adastraplanets.iapetus",
+     "planet.adastraplanets.rhea",
+     "planet.adastraplanets.titan"
+    ]
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.halo_crystal_shard"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:halo_crystal_cluster": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.enceladus",
+     "planet.adastraplanets.iapetus",
+     "planet.adastraplanets.rhea",
+     "planet.adastraplanets.titan"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:halo_crystal_shard": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.halo_crystal_cluster"
+   ]
+  }
+ ],
+ "adastraplanets:halo_light_core": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  }
+ ],
+ "adastraplanets:hazed_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.hazed_rock"
+   ]
+  }
+ ],
+ "adastraplanets:hazed_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.titan"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.hazed_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:helionite_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.helionite_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:helionite_engine": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.helionite_plate",
+     "item.ad_astra.calorite_engine",
+     "item.ad_astra.fan"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:helionite_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_helionite"
+   ]
+  }
+ ],
+ "adastraplanets:helionite_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.helionite_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:helionite_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.ad_astra.mercury",
+    "-64",
+    "16"
+   ]
+  }
+ ],
+ "adastraplanets:helionite_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.helionite_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:huge_launch_pad": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.cassinium_plate",
+     "block.adastraplanets.large_launch_pad",
+     "item.ad_astra.steel_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:hydrothermal_vent": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.europa"
+   ]
+  }
+ ],
+ "adastraplanets:iapetus_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:ice_pebbles": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.titan"
+   ]
+  }
+ ],
+ "adastraplanets:ice_shard": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.eris"
+   ]
+  }
+ ],
+ "adastraplanets:icebound_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.icebound_rock"
+   ]
+  }
+ ],
+ "adastraplanets:icebound_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.rhea"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.icebound_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:igneum_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.igneum_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:igneum_fin": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.igneum_plate",
+     "item.adastraplanets.umbrite_fin"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:igneum_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_igneum"
+   ]
+  }
+ ],
+ "adastraplanets:igneum_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.igneum_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:igneum_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.io",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:igneum_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.igneum_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:io_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:jupiter_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:large_amber_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.callisto",
+     "planet.adastraplanets.europa",
+     "planet.adastraplanets.ganymede",
+     "planet.adastraplanets.io"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:large_cobalt_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.neptune",
+     "planet.adastraplanets.triton"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:large_ember_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.deimos",
+     "planet.adastraplanets.phobos"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:large_frost_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.dysnomia",
+     "planet.adastraplanets.eris"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:large_halo_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.enceladus",
+     "planet.adastraplanets.iapetus",
+     "planet.adastraplanets.rhea",
+     "planet.adastraplanets.titan"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:large_launch_pad": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.helionite_plate",
+     "item.ad_astra.launch_pad",
+     "item.ad_astra.steel_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:large_rose_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.charon",
+     "planet.adastraplanets.pluto"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:large_tide_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.miranda",
+     "planet.adastraplanets.oberon",
+     "planet.adastraplanets.titania",
+     "planet.adastraplanets.uranus"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_boots_1": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.ad_astra.steel_plate",
+     "block.minecraft.white_wool"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_boots_2": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_boots_1",
+     "item.ad_astra.ostrum_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_boots_3": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_boots_2",
+     "item.adastraplanets.helionite_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_boots_4": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_boots_3",
+     "item.adastraplanets.cassinium_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_boots_5": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_boots_4",
+     "item.adastraplanets.tempestine_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_hood_1": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.ad_astra.steel_plate",
+     "block.minecraft.white_wool"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_hood_2": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_hood_1",
+     "item.ad_astra.ostrum_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_hood_3": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_hood_2",
+     "item.adastraplanets.helionite_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_hood_4": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_hood_3",
+     "item.adastraplanets.cassinium_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_hood_5": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_hood_4",
+     "item.adastraplanets.tempestine_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_leggings_1": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.ad_astra.steel_plate",
+     "block.minecraft.white_wool"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_leggings_2": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_leggings_1",
+     "item.ad_astra.ostrum_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_leggings_3": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_leggings_2",
+     "item.adastraplanets.helionite_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_leggings_4": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_leggings_3",
+     "item.adastraplanets.cassinium_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_leggings_5": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_leggings_4",
+     "item.adastraplanets.tempestine_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_vest_1": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.ad_astra.steel_plate",
+     "block.minecraft.white_wool"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_vest_2": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_vest_1",
+     "item.ad_astra.ostrum_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_vest_3": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_vest_2",
+     "item.adastraplanets.helionite_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_vest_4": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_vest_3",
+     "item.adastraplanets.cassinium_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liner_vest_5": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.liner_vest_4",
+     "item.adastraplanets.tempestine_plate"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:liquid_methane": [
+  {
+   "key": "obtain.adastraplanets.structure",
+   "args": [
+    "structure.adastraplanets.library_of_the_rings"
+   ]
+  }
+ ],
+ "adastraplanets:liquid_methane_bucket": [
+  {
+   "key": "obtain.adastraplanets.bucket",
+   "args": [
+    "planet.adastraplanets.titan"
+   ]
+  }
+ ],
+ "adastraplanets:mantle_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.mantle_rock"
+   ]
+  }
+ ],
+ "adastraplanets:mantle_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.uranus"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.mantle_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:medium_amber_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.callisto",
+     "planet.adastraplanets.europa",
+     "planet.adastraplanets.ganymede",
+     "planet.adastraplanets.io"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:medium_cobalt_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.neptune",
+     "planet.adastraplanets.triton"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:medium_ember_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.deimos",
+     "planet.adastraplanets.phobos"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:medium_frost_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.dysnomia",
+     "planet.adastraplanets.eris"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:medium_halo_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.enceladus",
+     "planet.adastraplanets.iapetus",
+     "planet.adastraplanets.rhea",
+     "planet.adastraplanets.titan"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:medium_rose_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.charon",
+     "planet.adastraplanets.pluto"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:medium_tide_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.miranda",
+     "planet.adastraplanets.oberon",
+     "planet.adastraplanets.titania",
+     "planet.adastraplanets.uranus"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:methane_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.pluto"
+   ]
+  }
+ ],
+ "adastraplanets:miranda_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:mirror_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.mirror_rock"
+   ]
+  }
+ ],
+ "adastraplanets:mirror_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.eris"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.mirror_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:molten_abyssium": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_abyssium_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_albedon": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_albedon_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_aurorium": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_aurorium_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_azurane": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_azurane_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_cassinium": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_cassinium_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_chasmal": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_chasmal_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_cordium": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_cordium_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_eonyx": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_eonyx_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_ferrolith": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_ferrolith_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_helionite": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_helionite_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_igneum": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_igneum_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_mordrine": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_mordrine_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_mosaicon": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_mosaicon_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_nitralis": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_nitralis_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_nivalum": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_nivalum_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_obscurex": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_obscurex_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_pallorite": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_pallorite_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_shardex": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_shardex_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_stormium": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_stormium_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_tempestine": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_tempestine_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_tholinar": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_tholinar_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_umbrite": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_umbrite_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_vesperine": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:molten_vesperine_bucket": [
+  {
+   "key": "obtain.adastraplanets.molten",
+   "args": []
+  }
+ ],
+ "adastraplanets:mordrine_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.mordrine_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:mordrine_fin": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.mordrine_plate",
+     "item.adastraplanets.nitralis_fin"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:mordrine_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_mordrine"
+   ]
+  }
+ ],
+ "adastraplanets:mordrine_nose_cone": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.mordrine_plate",
+     "item.adastraplanets.nitralis_nose_cone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:mordrine_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.mordrine_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:mordrine_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.charon",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:mordrine_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.mordrine_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:mosaicon_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.mosaicon_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:mosaicon_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_mosaicon"
+   ]
+  }
+ ],
+ "adastraplanets:mosaicon_nose_cone": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.mosaicon_plate",
+     "item.adastraplanets.ferrolith_nose_cone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:mosaicon_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.mosaicon_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:mosaicon_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.miranda",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:mosaicon_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.mosaicon_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:murk_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.murk_rock"
+   ]
+  }
+ ],
+ "adastraplanets:murk_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.oberon"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.murk_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:neptune_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:nitralis_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.nitralis_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:nitralis_fin": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.nitralis_plate",
+     "item.adastraplanets.obscurex_fin"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:nitralis_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_nitralis"
+   ]
+  }
+ ],
+ "adastraplanets:nitralis_nose_cone": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.nitralis_plate",
+     "item.adastraplanets.mosaicon_nose_cone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:nitralis_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.nitralis_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:nitralis_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.triton",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:nitralis_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.nitralis_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:nitrogen_frost": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.triton"
+   ]
+  }
+ ],
+ "adastraplanets:nitrogen_vent": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.triton"
+   ]
+  }
+ ],
+ "adastraplanets:nivalum_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.nivalum_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:nivalum_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_nivalum"
+   ]
+  }
+ ],
+ "adastraplanets:nivalum_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.nivalum_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:nivalum_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.enceladus",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:nivalum_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.nivalum_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:nivalum_tank": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.nivalum_plate",
+     "item.adastraplanets.abyssium_tank",
+     "item.ad_astra.steel_rod"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:oberon_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:obscurex_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.obscurex_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:obscurex_fin": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.obscurex_plate",
+     "item.adastraplanets.vesperine_fin"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:obscurex_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_obscurex"
+   ]
+  }
+ ],
+ "adastraplanets:obscurex_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.obscurex_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:obscurex_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.oberon",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:obscurex_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.obscurex_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:ore_scanner": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:pale_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.pale_rock"
+   ]
+  }
+ ],
+ "adastraplanets:pale_dust": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.deimos"
+   ]
+  }
+ ],
+ "adastraplanets:pale_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.deimos"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.pale_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:pallorite_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.pallorite_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:pallorite_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_pallorite"
+   ]
+  }
+ ],
+ "adastraplanets:pallorite_nose_cone": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.pallorite_plate",
+     "item.ad_astra.rocket_nose_cone"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:pallorite_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.pallorite_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:pallorite_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.deimos",
+    "-64",
+    "60"
+   ]
+  }
+ ],
+ "adastraplanets:pallorite_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.pallorite_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:patchwork_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.patchwork_rock"
+   ]
+  }
+ ],
+ "adastraplanets:patchwork_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.miranda"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.patchwork_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:phobos_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:plume_snow": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.enceladus"
+   ]
+  }
+ ],
+ "adastraplanets:pluto_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:pressure_crystal": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.uranus"
+   ]
+  }
+ ],
+ "adastraplanets:pressure_diamond": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.pressure_crystal"
+   ]
+  }
+ ],
+ "adastraplanets:raw_abyssium": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.abyssium_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_abyssium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_abyssium"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_albedon": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.albedon_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_albedon_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_albedon"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_aurorium": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.aurorium_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_aurorium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_aurorium"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_azurane": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.azurane_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_azurane_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_azurane"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_cassinium": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.cassinium_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_cassinium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_cassinium"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_chasmal": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.chasmal_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_chasmal_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_chasmal"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_cordium": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.cordium_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_cordium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_cordium"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_eonyx": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.eonyx_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_eonyx_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_eonyx"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_ferrolith": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.ferrolith_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_ferrolith_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_ferrolith"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_helionite": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.helionite_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_helionite_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_helionite"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_igneum": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.igneum_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_igneum_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_igneum"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_mordrine": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.mordrine_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_mordrine_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_mordrine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_mosaicon": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.mosaicon_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_mosaicon_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_mosaicon"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_nitralis": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.nitralis_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_nitralis_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_nitralis"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_nivalum": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.nivalum_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_nivalum_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_nivalum"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_obscurex": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.obscurex_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_obscurex_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_obscurex"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_pallorite": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.pallorite_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_pallorite_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_pallorite"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_shardex": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.shardex_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_shardex_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_shardex"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_stormium": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.stormium_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_stormium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_stormium"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_tempestine": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.tempestine_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_tempestine_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_tempestine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_tholinar": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.tholinar_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_tholinar_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_tholinar"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_umbrite": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.umbrite_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_umbrite_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_umbrite"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:raw_vesperine": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.vesperine_ore"
+   ]
+  }
+ ],
+ "adastraplanets:raw_vesperine_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.raw_vesperine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:rhea_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:rift_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.rift_rock"
+   ]
+  }
+ ],
+ "adastraplanets:rift_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.titania"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.rift_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:rime": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.callisto"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.enceladus"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.europa"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.iapetus"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.rhea"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.titania"
+   ]
+  }
+ ],
+ "adastraplanets:rose_crystal_block": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.charon",
+     "planet.adastraplanets.pluto"
+    ]
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.rose_crystal_shard"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:rose_crystal_cluster": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.charon",
+     "planet.adastraplanets.pluto"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:rose_crystal_shard": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.rose_crystal_cluster"
+   ]
+  }
+ ],
+ "adastraplanets:rose_light_core": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.sealed_heart"
+   ]
+  }
+ ],
+ "adastraplanets:rusted_ice": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.europa"
+   ]
+  }
+ ],
+ "adastraplanets:saturn_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:shardex_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.shardex_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:shardex_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_shardex"
+   ]
+  }
+ ],
+ "adastraplanets:shardex_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.shardex_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:shardex_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.dysnomia",
+    "-64",
+    "60"
+   ]
+  }
+ ],
+ "adastraplanets:shardex_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.shardex_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:slate_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.slate_rock"
+   ]
+  }
+ ],
+ "adastraplanets:slate_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.charon"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.slate_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:small_amber_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.callisto",
+     "planet.adastraplanets.europa",
+     "planet.adastraplanets.ganymede",
+     "planet.adastraplanets.io"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:small_cobalt_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.neptune",
+     "planet.adastraplanets.triton"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:small_ember_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.deimos",
+     "planet.adastraplanets.phobos"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:small_frost_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.dysnomia",
+     "planet.adastraplanets.eris"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:small_halo_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.enceladus",
+     "planet.adastraplanets.iapetus",
+     "planet.adastraplanets.rhea",
+     "planet.adastraplanets.titan"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:small_rose_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.charon",
+     "planet.adastraplanets.pluto"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:small_tide_crystal_bud": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.miranda",
+     "planet.adastraplanets.oberon",
+     "planet.adastraplanets.titania",
+     "planet.adastraplanets.uranus"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:stellar_nasa_workbench": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.azurane_plate",
+     "item.adastraplanets.pressure_diamond",
+     "item.adastraplanets.halo_light_core",
+     "item.adastraplanets.obscurex_plate",
+     "block.adastraplanets.advanced_nasa_workbench"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:stormium_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.stormium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:stormium_engine": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.stormium_plate",
+     "item.adastraplanets.helionite_engine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:stormium_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_stormium"
+   ]
+  }
+ ],
+ "adastraplanets:stormium_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.stormium_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:stormium_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.jupiter",
+    "40",
+    "160"
+   ]
+  }
+ ],
+ "adastraplanets:stormium_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.stormium_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:sulcus_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.sulcus_rock"
+   ]
+  }
+ ],
+ "adastraplanets:sulcus_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.ganymede"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.sulcus_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:sulfur_crust": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.io"
+   ]
+  }
+ ],
+ "adastraplanets:sulfur_vent": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.io"
+   ]
+  }
+ ],
+ "adastraplanets:sulfurous_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.sulfurous_rock"
+   ]
+  }
+ ],
+ "adastraplanets:sulfurous_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.io"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.sulfurous_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:tempestine_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tempestine_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tempestine_engine": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tempestine_plate",
+     "item.adastraplanets.azurane_engine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tempestine_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_tempestine"
+   ]
+  }
+ ],
+ "adastraplanets:tempestine_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tempestine_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tempestine_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.neptune",
+    "-64",
+    "100"
+   ]
+  }
+ ],
+ "adastraplanets:tempestine_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.tempestine_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:tempestine_tank": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tempestine_plate",
+     "item.adastraplanets.chasmal_tank",
+     "item.ad_astra.steel_rod"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tholin_sand": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.titan"
+   ]
+  }
+ ],
+ "adastraplanets:tholinar_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tholinar_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tholinar_engine": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tholinar_plate",
+     "item.adastraplanets.stormium_engine"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tholinar_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_tholinar"
+   ]
+  }
+ ],
+ "adastraplanets:tholinar_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tholinar_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tholinar_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.titan",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:tholinar_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.tholinar_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:tide_crystal_block": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.miranda",
+     "planet.adastraplanets.oberon",
+     "planet.adastraplanets.titania",
+     "planet.adastraplanets.uranus"
+    ]
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.tide_crystal_shard"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tide_crystal_cluster": [
+  {
+   "key": "obtain.adastraplanets.geode",
+   "args": [
+    [
+     "planet.adastraplanets.miranda",
+     "planet.adastraplanets.oberon",
+     "planet.adastraplanets.titania",
+     "planet.adastraplanets.uranus"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:tide_crystal_shard": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.tide_crystal_cluster"
+   ]
+  }
+ ],
+ "adastraplanets:tide_light_core": [
+  {
+   "key": "obtain.adastraplanets.chest",
+   "args": [
+    "structure.adastraplanets.tilted_observatory"
+   ]
+  }
+ ],
+ "adastraplanets:tier_10_rocket": [
+  {
+   "key": "obtain.adastraplanets.workbench",
+   "args": [
+    "block.adastraplanets.stellar_nasa_workbench"
+   ]
+  }
+ ],
+ "adastraplanets:tier_5_rocket": [
+  {
+   "key": "obtain.adastraplanets.workbench",
+   "args": [
+    "block.adastraplanets.advanced_nasa_workbench"
+   ]
+  }
+ ],
+ "adastraplanets:tier_6_rocket": [
+  {
+   "key": "obtain.adastraplanets.workbench",
+   "args": [
+    "block.adastraplanets.advanced_nasa_workbench"
+   ]
+  }
+ ],
+ "adastraplanets:tier_7_rocket": [
+  {
+   "key": "obtain.adastraplanets.workbench",
+   "args": [
+    "block.adastraplanets.advanced_nasa_workbench"
+   ]
+  }
+ ],
+ "adastraplanets:tier_8_rocket": [
+  {
+   "key": "obtain.adastraplanets.workbench",
+   "args": [
+    "block.adastraplanets.stellar_nasa_workbench"
+   ]
+  }
+ ],
+ "adastraplanets:tier_9_rocket": [
+  {
+   "key": "obtain.adastraplanets.workbench",
+   "args": [
+    "block.adastraplanets.stellar_nasa_workbench"
+   ]
+  }
+ ],
+ "adastraplanets:titan_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:titania_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:triton_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:umber_dust": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.iapetus"
+   ]
+  }
+ ],
+ "adastraplanets:umbrite_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.umbrite_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:umbrite_fin": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.umbrite_plate",
+     "item.ad_astra.rocket_fin"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:umbrite_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_umbrite"
+   ]
+  }
+ ],
+ "adastraplanets:umbrite_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.umbrite_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:umbrite_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.phobos",
+    "-64",
+    "60"
+   ]
+  }
+ ],
+ "adastraplanets:umbrite_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.umbrite_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:umbrite_tank": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.umbrite_plate",
+     "item.ad_astra.calorite_tank",
+     "item.ad_astra.steel_rod"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:uranus_globe": [
+  {
+   "key": "obtain.adastraplanets.creative",
+   "args": []
+  }
+ ],
+ "adastraplanets:veiled_cobblestone": [
+  {
+   "key": "obtain.adastraplanets.drop",
+   "args": [
+    "block.adastraplanets.veiled_rock"
+   ]
+  }
+ ],
+ "adastraplanets:veiled_rock": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.iapetus"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "block.adastraplanets.veiled_cobblestone"
+   ]
+  }
+ ],
+ "adastraplanets:vesperine_block": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.vesperine_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:vesperine_fin": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.vesperine_plate",
+     "item.adastraplanets.igneum_fin"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:vesperine_ingot": [
+  {
+   "key": "obtain.adastraplanets.smelt",
+   "args": [
+    "item.adastraplanets.raw_vesperine"
+   ]
+  }
+ ],
+ "adastraplanets:vesperine_nugget": [
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "item.adastraplanets.vesperine_ingot"
+    ]
+   ]
+  }
+ ],
+ "adastraplanets:vesperine_ore": [
+  {
+   "key": "obtain.adastraplanets.ore",
+   "args": [
+    "planet.adastraplanets.iapetus",
+    "-64",
+    "56"
+   ]
+  }
+ ],
+ "adastraplanets:vesperine_plate": [
+  {
+   "key": "obtain.adastraplanets.compress",
+   "args": [
+    "item.adastraplanets.vesperine_ingot"
+   ]
+  }
+ ],
+ "adastraplanets:zone_frost": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.jupiter"
+   ]
+  }
+ ],
+ "adastraplanets:zone_frost_slab": [
+  {
+   "key": "obtain.adastraplanets.found",
+   "args": [
+    "planet.adastraplanets.jupiter"
+   ]
+  },
+  {
+   "key": "obtain.adastraplanets.craft",
+   "args": [
+    [
+     "block.adastraplanets.zone_frost"
+    ]
+   ]
+  }
+ ]
+}

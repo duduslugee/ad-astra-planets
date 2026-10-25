@@ -1,0 +1,11 @@
+{
+  "type": "adastraplanets:phobos",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:phobos",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "adastraplanets:phobos_grooves"
+    }
+  }
+}

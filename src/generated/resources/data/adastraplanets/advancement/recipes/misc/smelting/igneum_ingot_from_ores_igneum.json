@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_igneum": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/igneum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/igneum_ingot_from_ores_igneum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_igneum"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/igneum_ingot_from_ores_igneum"
+    ]
+  }
+}

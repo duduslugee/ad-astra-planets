@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/azurane"
+    },
+    "D": {
+      "item": "adastraplanets:pressure_diamond"
+    },
+    "H": {
+      "item": "adastraplanets:halo_light_core"
+    },
+    "O": {
+      "tag": "c:plates/obscurex"
+    },
+    "W": {
+      "item": "adastraplanets:advanced_nasa_workbench"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "OWO",
+    "AHA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:stellar_nasa_workbench"
+  }
+}

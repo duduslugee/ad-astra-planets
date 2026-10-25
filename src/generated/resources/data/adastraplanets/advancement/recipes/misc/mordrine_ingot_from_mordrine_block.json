@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mordrine_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/mordrine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:mordrine_ingot_from_mordrine_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mordrine_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:mordrine_ingot_from_mordrine_block"
+    ]
+  }
+}

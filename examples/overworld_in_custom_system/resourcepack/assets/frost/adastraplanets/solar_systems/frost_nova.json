@@ -1,0 +1,7 @@
+{
+  "sun": "ad_astra:textures/environment/blue_sun.png",
+  "orbit_color": "#2A5D8F",
+  "planets": [
+    { "texture": "ad_astra:textures/environment/earth.png", "orbit": 2, "speed": 1.0 }
+  ]
+}

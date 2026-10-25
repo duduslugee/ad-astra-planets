@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tempestine_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/tempestine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:tempestine_nugget_from_tempestine_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tempestine_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:tempestine_nugget_from_tempestine_ingot"
+    ]
+  }
+}

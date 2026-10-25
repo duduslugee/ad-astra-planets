@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:miranda/tilted_observatory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 30,
+    "salt": 46239901,
+    "exclusion_zone": {
+      "other_set": "adastraplanets:miranda/points_of_interest",
+      "chunk_count": 6
+    }
+  }
+}

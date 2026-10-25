@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/mordrine"
+    },
+    "F": {
+      "item": "adastraplanets:nitralis_fin"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#F#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:mordrine_fin"
+  }
+}

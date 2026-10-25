@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "adastraplanets:item/light_core",
+    "layer1": "adastraplanets:item/light_core_frame"
+  }
+}

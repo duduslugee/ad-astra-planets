@@ -1,0 +1,26 @@
+{
+  "values": [
+    "adastraplanets:carbon_rock",
+    "adastraplanets:pale_rock",
+    "adastraplanets:abyssal_rock",
+    "adastraplanets:sulfurous_rock",
+    "adastraplanets:sulcus_rock",
+    "adastraplanets:aged_rock",
+    "adastraplanets:cloud_rock",
+    "adastraplanets:glacial_rock",
+    "adastraplanets:icebound_rock",
+    "adastraplanets:veiled_rock",
+    "adastraplanets:hazed_rock",
+    "adastraplanets:column_rock",
+    "adastraplanets:mirror_rock",
+    "adastraplanets:fracture_rock",
+    "adastraplanets:glacier_rock",
+    "adastraplanets:slate_rock",
+    "adastraplanets:gloom_rock",
+    "adastraplanets:cryo_rock",
+    "adastraplanets:mantle_rock",
+    "adastraplanets:murk_rock",
+    "adastraplanets:rift_rock",
+    "adastraplanets:patchwork_rock"
+  ]
+}

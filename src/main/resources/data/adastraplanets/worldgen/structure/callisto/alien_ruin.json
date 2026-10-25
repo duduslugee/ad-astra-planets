@@ -1,0 +1,14 @@
+{
+  "type": "adastraplanets:levelled_jigsaw",
+  "biomes": [
+    "adastraplanets:callisto_craters"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "adastraplanets:callisto/alien_ruin",
+  "size": 1,
+  "offset": -7,
+  "footprint_radius": 9,
+  "max_slope": 6
+}

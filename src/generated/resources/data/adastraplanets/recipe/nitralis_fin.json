@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/nitralis"
+    },
+    "F": {
+      "item": "adastraplanets:obscurex_fin"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#F#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:nitralis_fin"
+  }
+}

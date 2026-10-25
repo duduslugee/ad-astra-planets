@@ -1,0 +1,26 @@
+{
+  "values": [
+    "adastraplanets:phobos_globe",
+    "adastraplanets:deimos_globe",
+    "adastraplanets:io_globe",
+    "adastraplanets:europa_globe",
+    "adastraplanets:ganymede_globe",
+    "adastraplanets:callisto_globe",
+    "adastraplanets:jupiter_globe",
+    "adastraplanets:enceladus_globe",
+    "adastraplanets:rhea_globe",
+    "adastraplanets:iapetus_globe",
+    "adastraplanets:titan_globe",
+    "adastraplanets:saturn_globe",
+    "adastraplanets:miranda_globe",
+    "adastraplanets:titania_globe",
+    "adastraplanets:oberon_globe",
+    "adastraplanets:uranus_globe",
+    "adastraplanets:triton_globe",
+    "adastraplanets:neptune_globe",
+    "adastraplanets:charon_globe",
+    "adastraplanets:pluto_globe",
+    "adastraplanets:dysnomia_globe",
+    "adastraplanets:eris_globe"
+  ]
+}

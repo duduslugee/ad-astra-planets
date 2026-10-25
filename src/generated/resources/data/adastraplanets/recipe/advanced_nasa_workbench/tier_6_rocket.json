@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:rocket_enabled",
+      "rocket": "adastraplanets:tier_6_rocket"
+    }
+  ],
+  "type": "adastraplanets:advanced_nasa_workbench",
+  "ingredients": [
+    {
+      "item": "adastraplanets:eonyx_nose_cone"
+    },
+    {
+      "tag": "c:storage_blocks/aurorium"
+    },
+    {
+      "tag": "c:storage_blocks/aurorium"
+    },
+    {
+      "tag": "c:storage_blocks/aurorium"
+    },
+    {
+      "tag": "c:storage_blocks/aurorium"
+    },
+    {
+      "tag": "c:storage_blocks/aurorium"
+    },
+    {
+      "tag": "c:storage_blocks/aurorium"
+    },
+    {
+      "item": "adastraplanets:igneum_fin"
+    },
+    {
+      "item": "adastraplanets:abyssium_tank"
+    },
+    {
+      "item": "adastraplanets:abyssium_tank"
+    },
+    {
+      "item": "adastraplanets:igneum_fin"
+    },
+    {
+      "item": "adastraplanets:igneum_fin"
+    },
+    {
+      "item": "adastraplanets:stormium_engine"
+    },
+    {
+      "item": "adastraplanets:igneum_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:tier_6_rocket"
+  }
+}

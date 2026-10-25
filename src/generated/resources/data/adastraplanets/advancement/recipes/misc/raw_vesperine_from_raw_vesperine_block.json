@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_vesperine_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/raw_vesperine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:raw_vesperine_from_raw_vesperine_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_vesperine_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:raw_vesperine_from_raw_vesperine_block"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "values": {
+    "adastraplanets:liner_hood_1": {
+      "thermal": 1,
+      "pressure": 1
+    },
+    "adastraplanets:liner_vest_1": {
+      "thermal": 1,
+      "pressure": 1
+    },
+    "adastraplanets:liner_leggings_1": {
+      "thermal": 1,
+      "pressure": 1
+    },
+    "adastraplanets:liner_boots_1": {
+      "thermal": 1,
+      "pressure": 1
+    },
+    "adastraplanets:liner_hood_2": {
+      "thermal": 2,
+      "pressure": 2
+    },
+    "adastraplanets:liner_vest_2": {
+      "thermal": 2,
+      "pressure": 2
+    },
+    "adastraplanets:liner_leggings_2": {
+      "thermal": 2,
+      "pressure": 2
+    },
+    "adastraplanets:liner_boots_2": {
+      "thermal": 2,
+      "pressure": 2
+    },
+    "adastraplanets:liner_hood_3": {
+      "thermal": 3,
+      "pressure": 3
+    },
+    "adastraplanets:liner_vest_3": {
+      "thermal": 3,
+      "pressure": 3
+    },
+    "adastraplanets:liner_leggings_3": {
+      "thermal": 3,
+      "pressure": 3
+    },
+    "adastraplanets:liner_boots_3": {
+      "thermal": 3,
+      "pressure": 3
+    },
+    "adastraplanets:liner_hood_4": {
+      "thermal": 4,
+      "pressure": 4
+    },
+    "adastraplanets:liner_vest_4": {
+      "thermal": 4,
+      "pressure": 4
+    },
+    "adastraplanets:liner_leggings_4": {
+      "thermal": 4,
+      "pressure": 4
+    },
+    "adastraplanets:liner_boots_4": {
+      "thermal": 4,
+      "pressure": 4
+    },
+    "adastraplanets:liner_hood_5": {
+      "thermal": 5,
+      "pressure": 5
+    },
+    "adastraplanets:liner_vest_5": {
+      "thermal": 5,
+      "pressure": 5
+    },
+    "adastraplanets:liner_leggings_5": {
+      "thermal": 5,
+      "pressure": 5
+    },
+    "adastraplanets:liner_boots_5": {
+      "thermal": 5,
+      "pressure": 5
+    },
+    "adastraplanets:ancient_helmet": {
+      "thermal": 5,
+      "pressure": 5
+    },
+    "adastraplanets:ancient_chestplate": {
+      "thermal": 5,
+      "pressure": 5
+    },
+    "adastraplanets:ancient_leggings": {
+      "thermal": 5,
+      "pressure": 5
+    },
+    "adastraplanets:ancient_boots": {
+      "thermal": 5,
+      "pressure": 5
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "adastraplanets:iapetus_dark_face",
+    "adastraplanets:iapetus_bright_face"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "adastraplanets:iapetus/ice_cave",
+  "size": 1,
+  "start_height": {
+    "absolute": -14
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}

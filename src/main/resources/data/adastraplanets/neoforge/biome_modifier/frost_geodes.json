@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "adastraplanets:dysnomia_fragments",
+    "adastraplanets:eris_mirror",
+    "adastraplanets:eris_dunes"
+  ],
+  "features": "adastraplanets:frost_geode",
+  "step": "local_modifications"
+}

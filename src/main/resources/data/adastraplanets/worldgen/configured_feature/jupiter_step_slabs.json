@@ -1,0 +1,27 @@
+{
+  "type": "adastraplanets:step_slabs",
+  "config": {
+    "rules": [
+      {
+        "on": "adastraplanets:zone_frost",
+        "slab": {
+          "Name": "adastraplanets:zone_frost_slab",
+          "Properties": {
+            "type": "bottom",
+            "waterlogged": "false"
+          }
+        }
+      },
+      {
+        "on": "adastraplanets:belt_frost",
+        "slab": {
+          "Name": "adastraplanets:belt_frost_slab",
+          "Properties": {
+            "type": "bottom",
+            "waterlogged": "false"
+          }
+        }
+      }
+    ]
+  }
+}

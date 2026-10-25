@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mosaicon_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/mosaicon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:mosaicon_ingot_from_mosaicon_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mosaicon_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:mosaicon_ingot_from_mosaicon_nugget"
+    ]
+  }
+}

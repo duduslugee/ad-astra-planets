@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_materials_tempestine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/tempestine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/tempestine_ingot_from_raw_materials_tempestine"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_materials_tempestine"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/tempestine_ingot_from_raw_materials_tempestine"
+    ]
+  }
+}

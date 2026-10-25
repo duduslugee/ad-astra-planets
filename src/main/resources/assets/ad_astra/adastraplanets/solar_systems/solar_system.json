@@ -1,0 +1,320 @@
+{
+  "sun": "ad_astra:textures/environment/sun.png",
+  "sun_size": 18,
+  "orbit_color": "#24327B",
+  "orbit_gap": 18,
+  "moon_gap": 4,
+  "planets": [
+    {
+      "texture": "ad_astra:textures/environment/mercury.png",
+      "orbit": 1,
+      "size": 8,
+      "speed": 4.0,
+      "phase": 30,
+      "planet": "ad_astra:mercury",
+      "resources": [
+        "adastraplanets:raw_helionite"
+      ]
+    },
+    {
+      "texture": "ad_astra:textures/environment/venus.png",
+      "orbit": 2,
+      "size": 10,
+      "speed": 3.0,
+      "phase": 250,
+      "planet": "ad_astra:venus",
+      "resources": [
+        "ad_astra:raw_calorite"
+      ]
+    },
+    {
+      "texture": "ad_astra:textures/environment/earth.png",
+      "orbit": 3,
+      "size": 10,
+      "speed": 2.4,
+      "phase": 140,
+      "moons": [
+        {
+          "texture": "ad_astra:textures/environment/moon.png",
+          "orbit": 1,
+          "size": 5,
+          "speed": 9,
+          "phase": 0,
+          "planet": "ad_astra:moon",
+          "resources": [
+            "ad_astra:raw_desh"
+          ]
+        }
+      ],
+      "planet": "minecraft:overworld"
+    },
+    {
+      "texture": "ad_astra:textures/environment/mars.png",
+      "orbit": 4,
+      "size": 9,
+      "speed": 1.9,
+      "phase": 320,
+      "moons": [
+        {
+          "texture": "ad_astra:textures/environment/phobos.png",
+          "orbit": 1,
+          "size": 4,
+          "speed": 11,
+          "phase": 40,
+          "planet": "adastraplanets:phobos",
+          "resources": [
+            "adastraplanets:raw_umbrite"
+          ]
+        },
+        {
+          "texture": "ad_astra:textures/environment/deimos.png",
+          "orbit": 2,
+          "size": 3,
+          "speed": 7,
+          "phase": 200,
+          "planet": "adastraplanets:deimos",
+          "resources": [
+            "adastraplanets:raw_pallorite"
+          ]
+        }
+      ],
+      "planet": "ad_astra:mars",
+      "resources": [
+        "ad_astra:raw_ostrum"
+      ]
+    },
+    {
+      "texture": "adastraplanets:textures/gui/planets/jupiter.png",
+      "orbit": 5,
+      "size": 14,
+      "speed": 1.0,
+      "phase": 60,
+      "moons": [
+        {
+          "texture": "adastraplanets:textures/gui/planets/io.png",
+          "orbit": 1,
+          "size": 4,
+          "speed": 12,
+          "phase": 0,
+          "planet": "adastraplanets:io",
+          "resources": [
+            "adastraplanets:raw_igneum"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/europa.png",
+          "orbit": 2,
+          "size": 4,
+          "speed": 9,
+          "phase": 90,
+          "planet": "adastraplanets:europa",
+          "resources": [
+            "adastraplanets:raw_abyssium"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/ganymede.png",
+          "orbit": 3,
+          "size": 5,
+          "speed": 7,
+          "phase": 180,
+          "planet": "adastraplanets:ganymede",
+          "resources": [
+            "adastraplanets:raw_aurorium"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/callisto.png",
+          "orbit": 4,
+          "size": 5,
+          "speed": 5,
+          "phase": 270,
+          "planet": "adastraplanets:callisto",
+          "resources": [
+            "adastraplanets:raw_eonyx"
+          ]
+        }
+      ],
+      "planet": "adastraplanets:jupiter",
+      "resources": [
+        "adastraplanets:raw_stormium"
+      ]
+    },
+    {
+      "texture": "adastraplanets:textures/gui/planets/saturn.png",
+      "orbit": 6,
+      "size": 14,
+      "speed": 0.75,
+      "phase": 200,
+      "moons": [
+        {
+          "texture": "adastraplanets:textures/gui/planets/enceladus.png",
+          "orbit": 1,
+          "size": 3,
+          "speed": 12,
+          "phase": 30,
+          "planet": "adastraplanets:enceladus",
+          "resources": [
+            "adastraplanets:raw_nivalum"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/rhea.png",
+          "orbit": 2,
+          "size": 4,
+          "speed": 9,
+          "phase": 150,
+          "planet": "adastraplanets:rhea",
+          "resources": [
+            "adastraplanets:raw_ferrolith"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/titan.png",
+          "orbit": 3,
+          "size": 5,
+          "speed": 6,
+          "phase": 250,
+          "planet": "adastraplanets:titan",
+          "resources": [
+            "adastraplanets:raw_tholinar",
+            "adastraplanets:liquid_methane_bucket"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/iapetus.png",
+          "orbit": 4,
+          "size": 4,
+          "speed": 4,
+          "phase": 330,
+          "planet": "adastraplanets:iapetus",
+          "resources": [
+            "adastraplanets:raw_vesperine"
+          ]
+        }
+      ],
+      "planet": "adastraplanets:saturn",
+      "resources": [
+        "adastraplanets:raw_cassinium"
+      ]
+    },
+    {
+      "texture": "adastraplanets:textures/gui/planets/uranus.png",
+      "orbit": 7,
+      "size": 12,
+      "speed": 0.55,
+      "phase": 110,
+      "moons": [
+        {
+          "texture": "adastraplanets:textures/gui/planets/miranda.png",
+          "orbit": 1,
+          "size": 3,
+          "speed": 10,
+          "phase": 60,
+          "planet": "adastraplanets:miranda",
+          "resources": [
+            "adastraplanets:raw_mosaicon"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/titania.png",
+          "orbit": 2,
+          "size": 4,
+          "speed": 7,
+          "phase": 200,
+          "planet": "adastraplanets:titania",
+          "resources": [
+            "adastraplanets:raw_chasmal"
+          ]
+        },
+        {
+          "texture": "adastraplanets:textures/gui/planets/oberon.png",
+          "orbit": 3,
+          "size": 4,
+          "speed": 5,
+          "phase": 300,
+          "planet": "adastraplanets:oberon",
+          "resources": [
+            "adastraplanets:raw_obscurex"
+          ]
+        }
+      ],
+      "planet": "adastraplanets:uranus",
+      "resources": [
+        "adastraplanets:raw_azurane"
+      ]
+    },
+    {
+      "texture": "adastraplanets:textures/gui/planets/neptune.png",
+      "orbit": 8,
+      "size": 12,
+      "speed": 0.45,
+      "phase": 290,
+      "moons": [
+        {
+          "texture": "adastraplanets:textures/gui/planets/triton.png",
+          "orbit": 1,
+          "size": 4,
+          "speed": -8,
+          "phase": 0,
+          "planet": "adastraplanets:triton",
+          "resources": [
+            "adastraplanets:raw_nitralis"
+          ]
+        }
+      ],
+      "planet": "adastraplanets:neptune",
+      "resources": [
+        "adastraplanets:raw_tempestine"
+      ]
+    },
+    {
+      "texture": "adastraplanets:textures/gui/planets/pluto.png",
+      "orbit": 9,
+      "size": 6,
+      "speed": 0.38,
+      "phase": 20,
+      "moons": [
+        {
+          "texture": "adastraplanets:textures/gui/planets/charon.png",
+          "orbit": 1,
+          "size": 4,
+          "speed": 6,
+          "phase": 120,
+          "planet": "adastraplanets:charon",
+          "resources": [
+            "adastraplanets:raw_mordrine"
+          ]
+        }
+      ],
+      "planet": "adastraplanets:pluto",
+      "resources": [
+        "adastraplanets:raw_cordium"
+      ]
+    },
+    {
+      "texture": "adastraplanets:textures/gui/planets/eris.png",
+      "orbit": 10,
+      "size": 6,
+      "speed": 0.3,
+      "phase": 170,
+      "moons": [
+        {
+          "texture": "adastraplanets:textures/gui/planets/dysnomia.png",
+          "orbit": 1,
+          "size": 3,
+          "speed": 5,
+          "phase": 60,
+          "planet": "adastraplanets:dysnomia",
+          "resources": [
+            "adastraplanets:raw_shardex"
+          ]
+        }
+      ],
+      "planet": "adastraplanets:eris",
+      "resources": [
+        "adastraplanets:raw_albedon"
+      ]
+    }
+  ]
+}

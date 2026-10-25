@@ -1,0 +1,10 @@
+{
+  "dimensions": [
+    "adastraplanets:triton",
+    "adastraplanets:triton_orbit",
+    "adastraplanets:neptune_orbit"
+  ],
+  "thermal": 4,
+  "pressure": 4,
+  "pressure_kind": "low"
+}

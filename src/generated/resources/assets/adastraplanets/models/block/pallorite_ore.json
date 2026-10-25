@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "adastraplanets:block/pale_rock",
+    "overlay": "adastraplanets:block/pallorite_ore_overlay",
+    "particle": "adastraplanets:block/pale_rock"
+  }
+}

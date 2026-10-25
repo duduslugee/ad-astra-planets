@@ -1,0 +1,36 @@
+{
+  "type": "adastraplanets:europa",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:europa",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:europa_ice_shell",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "adastraplanets:europa_subsurface_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 1,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

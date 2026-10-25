@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "adastraplanets:helionite"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "adastraplanets:stormium"
+    }
+  ],
+  "type": "productivebees:bee_conversion",
+  "source": "adastraplanets:helionite",
+  "result": "adastraplanets:stormium",
+  "item": {
+    "tag": "c:storage_blocks/stormium"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/globe",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "adastraplanets:block/globe/titan_globe",
+    "particle": "adastraplanets:block/globe/titan_globe"
+  }
+}

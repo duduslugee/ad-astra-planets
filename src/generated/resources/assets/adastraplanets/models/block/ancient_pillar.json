@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "adastraplanets:block/ancient_pillar_top",
+    "side": "adastraplanets:block/ancient_pillar"
+  }
+}

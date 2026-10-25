@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:rocket_enabled",
+      "rocket": "adastraplanets:tier_8_rocket"
+    }
+  ],
+  "type": "adastraplanets:stellar_nasa_workbench",
+  "ingredients": [
+    {
+      "item": "adastraplanets:mosaicon_nose_cone"
+    },
+    {
+      "tag": "c:storage_blocks/azurane"
+    },
+    {
+      "tag": "c:storage_blocks/azurane"
+    },
+    {
+      "tag": "c:storage_blocks/azurane"
+    },
+    {
+      "tag": "c:storage_blocks/azurane"
+    },
+    {
+      "tag": "c:storage_blocks/azurane"
+    },
+    {
+      "tag": "c:storage_blocks/azurane"
+    },
+    {
+      "item": "adastraplanets:obscurex_fin"
+    },
+    {
+      "item": "adastraplanets:chasmal_tank"
+    },
+    {
+      "item": "adastraplanets:chasmal_tank"
+    },
+    {
+      "item": "adastraplanets:obscurex_fin"
+    },
+    {
+      "item": "adastraplanets:obscurex_fin"
+    },
+    {
+      "item": "adastraplanets:azurane_engine"
+    },
+    {
+      "item": "adastraplanets:obscurex_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:tier_8_rocket"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "adastraplanets:block/tinted_slab_top",
+  "textures": {
+    "all": "minecraft:block/snow"
+  }
+}

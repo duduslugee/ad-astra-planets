@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chasmal_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/chasmal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:chasmal_ingot_from_chasmal_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chasmal_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:chasmal_ingot_from_chasmal_nugget"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "adastraplanets:item/rocket_part/tank",
+    "layer1": "adastraplanets:item/rocket_part/tank_fittings"
+  }
+}

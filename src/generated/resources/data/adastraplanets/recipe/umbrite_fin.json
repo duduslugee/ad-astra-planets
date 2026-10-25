@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/umbrite"
+    },
+    "F": {
+      "item": "ad_astra:rocket_fin"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#F#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:umbrite_fin"
+  }
+}

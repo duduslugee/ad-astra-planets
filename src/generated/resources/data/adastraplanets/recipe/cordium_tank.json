@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/cordium"
+    },
+    "T": {
+      "item": "adastraplanets:tempestine_tank"
+    },
+    "|": {
+      "item": "ad_astra:steel_rod"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#T|",
+    "## "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:cordium_tank"
+  }
+}

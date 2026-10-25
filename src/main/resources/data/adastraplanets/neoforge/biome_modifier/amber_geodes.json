@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "adastraplanets:io_sulfur_plains",
+    "adastraplanets:europa_ice_shell",
+    "adastraplanets:europa_subsurface_ocean",
+    "adastraplanets:ganymede_dark_terrain",
+    "adastraplanets:ganymede_grooved_terrain",
+    "adastraplanets:callisto_craters"
+  ],
+  "features": "adastraplanets:amber_geode",
+  "step": "local_modifications"
+}

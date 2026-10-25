@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "adastraplanets:block/carbon_rock",
+    "overlay": "adastraplanets:block/umbrite_ore_overlay",
+    "particle": "adastraplanets:block/carbon_rock"
+  }
+}

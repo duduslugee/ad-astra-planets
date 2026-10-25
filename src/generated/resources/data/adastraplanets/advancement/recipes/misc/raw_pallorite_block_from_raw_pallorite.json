@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_pallorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/pallorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:raw_pallorite_block_from_raw_pallorite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_pallorite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:raw_pallorite_block_from_raw_pallorite"
+    ]
+  }
+}

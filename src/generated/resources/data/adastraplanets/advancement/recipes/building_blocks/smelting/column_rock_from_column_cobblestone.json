@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_column_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adastraplanets:column_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/column_rock_from_column_cobblestone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_column_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/column_rock_from_column_cobblestone"
+    ]
+  }
+}

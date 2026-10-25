@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:iapetus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:iapetus",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:iapetus_dark_face",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              -0.05
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:iapetus_bright_face",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.05,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

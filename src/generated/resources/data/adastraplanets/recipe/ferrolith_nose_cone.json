@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/ferrolith"
+    },
+    "N": {
+      "item": "adastraplanets:eonyx_nose_cone"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#N#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:ferrolith_nose_cone"
+  }
+}

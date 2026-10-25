@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "open=false": {
+      "model": "adastraplanets:block/ancient_seal"
+    },
+    "open=true": {
+      "model": "adastraplanets:block/ancient_seal_open"
+    }
+  }
+}

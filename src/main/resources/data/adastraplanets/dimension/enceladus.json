@@ -1,0 +1,39 @@
+{
+  "type": "adastraplanets:enceladus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:enceladus",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:enceladus_snow_plains",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -1.0,
+              0.8999999999999999
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:enceladus_tiger_stripes",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": 1.0
+          }
+        }
+      ]
+    }
+  }
+}

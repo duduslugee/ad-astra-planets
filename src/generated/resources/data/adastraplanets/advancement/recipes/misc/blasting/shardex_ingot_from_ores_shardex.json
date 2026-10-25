@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_shardex": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/shardex"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/shardex_ingot_from_ores_shardex"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_shardex"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/shardex_ingot_from_ores_shardex"
+    ]
+  }
+}

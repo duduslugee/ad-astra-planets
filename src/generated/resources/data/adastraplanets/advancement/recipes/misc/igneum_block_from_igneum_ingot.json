@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_igneum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/igneum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:igneum_block_from_igneum_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_igneum_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:igneum_block_from_igneum_ingot"
+    ]
+  }
+}

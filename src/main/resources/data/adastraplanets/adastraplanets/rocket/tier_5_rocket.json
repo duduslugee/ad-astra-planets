@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:rocket_enabled",
+      "rocket": "adastraplanets:tier_5_rocket"
+    }
+  ],
+  "tier": 5,
+  "fuel": "adastraplanets:tier_5_rocket_fuel",
+  "fuel_capacity": 3000,
+  "launch_cost": 3000,
+  "efficient_fuel": "ad_astra:efficient_fuel",
+  "efficient_launch_cost": 1200,
+  "acceleration": 0.005,
+  "max_speed": 1.0,
+  "riding_offset": 1.8,
+  "launch_pads": "#ad_astra:launch_pads"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "adastraplanets:geyser",
+  "config": {
+    "geyser": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:nitrogen_vent"
+      }
+    },
+    "frost": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:carbon_regolith"
+      }
+    },
+    "frost_radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 4
+    },
+    "can_replace": [
+      "adastraplanets:frost_regolith",
+      "adastraplanets:carbon_regolith",
+      "adastraplanets:cryo_rock"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "adastraplanets:block/rift_rock",
+    "overlay": "adastraplanets:block/chasmal_ore_overlay",
+    "particle": "adastraplanets:block/rift_rock"
+  }
+}

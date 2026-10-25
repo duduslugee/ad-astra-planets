@@ -1,0 +1,14 @@
+{
+  "dimensions": [
+    "adastraplanets:miranda",
+    "adastraplanets:miranda_orbit",
+    "adastraplanets:titania",
+    "adastraplanets:titania_orbit",
+    "adastraplanets:oberon",
+    "adastraplanets:oberon_orbit",
+    "adastraplanets:uranus_orbit"
+  ],
+  "thermal": 4,
+  "pressure": 4,
+  "pressure_kind": "low"
+}

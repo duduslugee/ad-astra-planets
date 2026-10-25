@@ -1,0 +1,7 @@
+{
+  "parent": "adastraplanets:block/glow_overlay_cube",
+  "textures": {
+    "base": "adastraplanets:block/glyph_rune_ring",
+    "glow": "adastraplanets:block/glyph_rune_ring_glow"
+  }
+}

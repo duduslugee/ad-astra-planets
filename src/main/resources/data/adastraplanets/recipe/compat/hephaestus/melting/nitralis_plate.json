@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    }
+  ],
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "tag": "c:plates/nitralis"
+  },
+  "result": {
+    "amount": 90,
+    "id": "adastraplanets:molten_nitralis"
+  },
+  "temperature": 1200,
+  "time": 100
+}

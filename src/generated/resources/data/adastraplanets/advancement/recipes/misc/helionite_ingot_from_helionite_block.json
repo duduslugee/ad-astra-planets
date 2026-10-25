@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_helionite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/helionite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:helionite_ingot_from_helionite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_helionite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:helionite_ingot_from_helionite_block"
+    ]
+  }
+}

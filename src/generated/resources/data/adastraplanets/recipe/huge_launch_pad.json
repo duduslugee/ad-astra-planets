@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:option",
+      "option": "launch_pads.huge_launch_pad"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/cassinium"
+    },
+    "L": {
+      "item": "adastraplanets:large_launch_pad"
+    },
+    "S": {
+      "tag": "ad_astra:steel_plates"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "SLS",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:huge_launch_pad"
+  }
+}

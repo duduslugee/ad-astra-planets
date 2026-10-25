@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ],
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:blue_laser_lens"
+  },
+  "output": {
+    "count": 1,
+    "tag": "c:raw_materials/tempestine"
+  },
+  "rarity": [
+    {
+      "biome_filter": {
+        "blacklist": [],
+        "whitelist": []
+      },
+      "depth_min": 0,
+      "depth_max": 100,
+      "dimension_filter": {
+        "blacklist": [],
+        "whitelist": [
+          "adastraplanets:neptune"
+        ]
+      },
+      "weight": 8
+    }
+  ]
+}

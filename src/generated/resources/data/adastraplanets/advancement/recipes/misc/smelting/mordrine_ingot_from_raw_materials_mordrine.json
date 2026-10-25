@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_materials_mordrine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/mordrine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/mordrine_ingot_from_raw_materials_mordrine"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_materials_mordrine"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/mordrine_ingot_from_raw_materials_mordrine"
+    ]
+  }
+}

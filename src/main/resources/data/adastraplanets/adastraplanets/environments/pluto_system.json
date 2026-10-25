@@ -1,0 +1,11 @@
+{
+  "dimensions": [
+    "adastraplanets:charon",
+    "adastraplanets:charon_orbit",
+    "adastraplanets:pluto",
+    "adastraplanets:pluto_orbit"
+  ],
+  "thermal": 5,
+  "pressure": 5,
+  "pressure_kind": "low"
+}

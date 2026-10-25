@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 100,
+  "energy": 20,
+  "ingredient": {
+    "tag": "c:ingots/umbrite"
+  },
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:umbrite_plate"
+  }
+}

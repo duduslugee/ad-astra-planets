@@ -1,0 +1,6 @@
+{
+  "default": true,
+  "thermal": 1,
+  "pressure": 1,
+  "pressure_kind": "low"
+}

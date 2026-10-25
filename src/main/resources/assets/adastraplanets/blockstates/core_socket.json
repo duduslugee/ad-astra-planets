@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "filled=false": {
+      "model": "adastraplanets:block/core_socket"
+    },
+    "filled=true": {
+      "model": "adastraplanets:block/core_socket_filled"
+    }
+  }
+}

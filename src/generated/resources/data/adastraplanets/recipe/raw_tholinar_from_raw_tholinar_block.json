@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/raw_tholinar"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "adastraplanets:raw_tholinar"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "adastraplanets:block/veiled_rock",
+    "overlay": "adastraplanets:block/vesperine_ore_overlay",
+    "particle": "adastraplanets:block/veiled_rock"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#9d9c9c",
+  "secondaryColor": "#4c4540",
+  "particleColor": "#e0e6ec",
+  "flowerTag": "c:storage_blocks/ferrolith",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

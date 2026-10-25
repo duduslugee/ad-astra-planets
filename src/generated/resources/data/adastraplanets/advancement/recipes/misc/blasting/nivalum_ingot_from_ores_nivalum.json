@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_nivalum": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/nivalum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/nivalum_ingot_from_ores_nivalum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_nivalum"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/nivalum_ingot_from_ores_nivalum"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "adastraplanets:geyser",
+  "config": {
+    "geyser": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:geyser"
+      }
+    },
+    "frost": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "adastraplanets:rime"
+      }
+    },
+    "frost_radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 4
+    },
+    "can_replace": [
+      "adastraplanets:crust_ice",
+      "adastraplanets:rusted_ice"
+    ]
+  }
+}

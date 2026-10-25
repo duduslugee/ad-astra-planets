@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "adastraplanets:rocket_enabled",
+      "rocket": "adastraplanets:tier_9_rocket"
+    }
+  ],
+  "type": "adastraplanets:stellar_nasa_workbench",
+  "ingredients": [
+    {
+      "item": "adastraplanets:nitralis_nose_cone"
+    },
+    {
+      "tag": "c:storage_blocks/tempestine"
+    },
+    {
+      "tag": "c:storage_blocks/tempestine"
+    },
+    {
+      "tag": "c:storage_blocks/tempestine"
+    },
+    {
+      "tag": "c:storage_blocks/tempestine"
+    },
+    {
+      "tag": "c:storage_blocks/tempestine"
+    },
+    {
+      "tag": "c:storage_blocks/tempestine"
+    },
+    {
+      "item": "adastraplanets:nitralis_fin"
+    },
+    {
+      "item": "adastraplanets:tempestine_tank"
+    },
+    {
+      "item": "adastraplanets:tempestine_tank"
+    },
+    {
+      "item": "adastraplanets:nitralis_fin"
+    },
+    {
+      "item": "adastraplanets:nitralis_fin"
+    },
+    {
+      "item": "adastraplanets:tempestine_engine"
+    },
+    {
+      "item": "adastraplanets:nitralis_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:tier_9_rocket"
+  }
+}

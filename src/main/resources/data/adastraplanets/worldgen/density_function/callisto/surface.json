@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": 36,
+      "to_y": 100,
+      "from_value": 1,
+      "to_value": -1
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.15,
+        "argument2": {
+          "type": "minecraft:flat_cache",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "minecraft:gravel",
+            "xz_scale": 1.0,
+            "y_scale": 0.0
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.05,
+        "argument2": {
+          "type": "minecraft:flat_cache",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "minecraft:surface",
+            "xz_scale": 4.0,
+            "y_scale": 0.0
+          }
+        }
+      }
+    }
+  },
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.03125,
+        "argument2": {
+          "type": "minecraft:flat_cache",
+          "argument": {
+            "type": "adastraplanets:craters",
+            "noise": "minecraft:surface",
+            "cell_size": 64,
+            "chance": 0.8,
+            "min_radius": 4,
+            "max_radius": 20,
+            "depth": 0.28,
+            "rim": 0.07
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.03125,
+        "argument2": {
+          "type": "minecraft:flat_cache",
+          "argument": {
+            "type": "adastraplanets:craters",
+            "noise": "minecraft:gravel",
+            "cell_size": 220,
+            "chance": 0.4,
+            "min_radius": 20,
+            "max_radius": 55,
+            "depth": 0.25,
+            "rim": 0.06
+          }
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 0.03125,
+      "argument2": {
+        "type": "minecraft:flat_cache",
+        "argument": {
+          "type": "adastraplanets:ring_basins",
+          "noise": "minecraft:surface",
+          "cell_size": 1200,
+          "chance": 0.5,
+          "min_radius": 160,
+          "max_radius": 320,
+          "plain": 0.25,
+          "plain_depth": 3,
+          "rings": 6,
+          "ring_height": 7
+        }
+      }
+    }
+  }
+}

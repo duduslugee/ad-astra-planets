@@ -1,0 +1,11 @@
+{
+  "dimensions": [
+    "adastraplanets:dysnomia",
+    "adastraplanets:dysnomia_orbit",
+    "adastraplanets:eris",
+    "adastraplanets:eris_orbit"
+  ],
+  "thermal": 5,
+  "pressure": 5,
+  "pressure_kind": "low"
+}

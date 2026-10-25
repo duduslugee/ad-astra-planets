@@ -1,0 +1,7 @@
+{
+  "parent": "adastraplanets:block/tinted_top_overlay",
+  "textures": {
+    "base": "minecraft:block/calcite",
+    "top_overlay": "adastraplanets:block/geyser_top_overlay"
+  }
+}

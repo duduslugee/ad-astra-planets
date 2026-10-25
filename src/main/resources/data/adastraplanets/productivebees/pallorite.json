@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#c3b398",
+  "secondaryColor": "#867564",
+  "particleColor": "#ece4cf",
+  "flowerTag": "c:storage_blocks/pallorite",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

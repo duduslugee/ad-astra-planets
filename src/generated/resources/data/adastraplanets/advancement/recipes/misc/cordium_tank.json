@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cordium_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:plates/cordium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:cordium_tank"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cordium_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:cordium_tank"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "adastraplanets:neptune",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:neptune",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:neptune_plateaus",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              -2.0,
+              -0.1
+            ]
+          }
+        },
+        {
+          "biome": "adastraplanets:neptune_abyss",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": [
+              0.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

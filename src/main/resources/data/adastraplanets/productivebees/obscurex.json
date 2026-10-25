@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#a26b7e",
+  "secondaryColor": "#643d62",
+  "particleColor": "#cda39f",
+  "flowerTag": "c:storage_blocks/obscurex",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

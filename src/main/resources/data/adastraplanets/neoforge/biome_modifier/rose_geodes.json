@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "adastraplanets:charon_plains",
+    "adastraplanets:charon_red_cap",
+    "adastraplanets:pluto_heart",
+    "adastraplanets:pluto_blades"
+  ],
+  "features": "adastraplanets:rose_geode",
+  "step": "local_modifications"
+}

@@ -1,0 +1,5 @@
+{
+  "check_interval": 20,
+  "thermal_damage": 2.0,
+  "pressure_damage": 2.0
+}

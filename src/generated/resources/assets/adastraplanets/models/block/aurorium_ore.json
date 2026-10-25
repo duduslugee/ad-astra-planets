@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "adastraplanets:block/sulcus_rock",
+    "overlay": "adastraplanets:block/aurorium_ore_overlay",
+    "particle": "adastraplanets:block/sulcus_rock"
+  }
+}

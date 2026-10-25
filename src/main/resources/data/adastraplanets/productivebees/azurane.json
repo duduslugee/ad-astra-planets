@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#69a8ba",
+  "secondaryColor": "#3a5275",
+  "particleColor": "#adeae8",
+  "flowerTag": "c:storage_blocks/azurane",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

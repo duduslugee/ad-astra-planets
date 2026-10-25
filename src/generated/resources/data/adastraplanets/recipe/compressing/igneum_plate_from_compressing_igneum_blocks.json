@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 800,
+  "energy": 20,
+  "ingredient": {
+    "tag": "c:storage_blocks/igneum"
+  },
+  "result": {
+    "count": 9,
+    "id": "adastraplanets:igneum_plate"
+  }
+}

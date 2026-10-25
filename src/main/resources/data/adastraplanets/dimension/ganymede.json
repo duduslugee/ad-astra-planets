@@ -1,0 +1,36 @@
+{
+  "type": "adastraplanets:ganymede",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:ganymede",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "adastraplanets:ganymede_dark_terrain",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": -0.5
+          }
+        },
+        {
+          "biome": "adastraplanets:ganymede_grooved_terrain",
+          "parameters": {
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0,
+            "temperature": 0.5
+          }
+        }
+      ]
+    }
+  }
+}

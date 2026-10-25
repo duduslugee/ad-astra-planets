@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "adastraplanets:miranda_patchwork",
+    "adastraplanets:miranda_coronae",
+    "adastraplanets:titania_plains",
+    "adastraplanets:titania_chasmata",
+    "adastraplanets:oberon_craters",
+    "adastraplanets:oberon_highlands",
+    "adastraplanets:uranus_plains",
+    "adastraplanets:uranus_pinnacles"
+  ],
+  "features": "adastraplanets:tide_geode",
+  "step": "local_modifications"
+}

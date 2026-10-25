@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#bd6f2c",
+  "secondaryColor": "#592c12",
+  "particleColor": "#efc072",
+  "flowerTag": "c:storage_blocks/tholinar",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

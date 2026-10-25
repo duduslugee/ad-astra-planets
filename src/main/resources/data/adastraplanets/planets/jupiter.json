@@ -1,0 +1,10 @@
+{
+  "dimension": "adastraplanets:jupiter",
+  "gravity": 24.79,
+  "orbit": "adastraplanets:jupiter_orbit",
+  "oxygen": false,
+  "solar_power": 4,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -108,
+  "tier": 5
+}

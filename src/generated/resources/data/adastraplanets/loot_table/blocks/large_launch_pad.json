@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "adastraplanets:large_launch_pad",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "x": "2",
+                "z": "2"
+              }
+            }
+          ],
+          "name": "adastraplanets:large_launch_pad"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "adastraplanets:blocks/large_launch_pad"
+}

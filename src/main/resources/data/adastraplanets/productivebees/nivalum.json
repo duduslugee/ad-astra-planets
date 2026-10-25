@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#789cc1",
+  "secondaryColor": "#444b7d",
+  "particleColor": "#c1e5f0",
+  "flowerTag": "c:storage_blocks/nivalum",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

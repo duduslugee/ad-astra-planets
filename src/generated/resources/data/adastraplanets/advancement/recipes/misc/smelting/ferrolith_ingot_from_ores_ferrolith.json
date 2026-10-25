@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_ferrolith": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/ferrolith"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/ferrolith_ingot_from_ores_ferrolith"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_ferrolith"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/ferrolith_ingot_from_ores_ferrolith"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:eris/crashed_probe",
+      "weight": 4
+    },
+    {
+      "structure": "adastraplanets:eris/abandoned_camp",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:eris/meteorite_crater",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:eris/ice_cave",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:eris/alien_ruin",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 7,
+    "salt": 51738027
+  }
+}

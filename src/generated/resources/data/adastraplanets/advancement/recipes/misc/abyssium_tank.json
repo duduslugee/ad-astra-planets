@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_abyssium_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:plates/abyssium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:abyssium_tank"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_abyssium_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:abyssium_tank"
+    ]
+  }
+}

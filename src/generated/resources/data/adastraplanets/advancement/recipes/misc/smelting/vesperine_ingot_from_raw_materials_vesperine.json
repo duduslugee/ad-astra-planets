@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_materials_vesperine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/vesperine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/vesperine_ingot_from_raw_materials_vesperine"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_materials_vesperine"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/vesperine_ingot_from_raw_materials_vesperine"
+    ]
+  }
+}

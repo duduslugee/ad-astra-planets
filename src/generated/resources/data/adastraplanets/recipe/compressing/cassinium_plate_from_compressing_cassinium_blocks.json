@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 800,
+  "energy": 20,
+  "ingredient": {
+    "tag": "c:storage_blocks/cassinium"
+  },
+  "result": {
+    "count": 9,
+    "id": "adastraplanets:cassinium_plate"
+  }
+}

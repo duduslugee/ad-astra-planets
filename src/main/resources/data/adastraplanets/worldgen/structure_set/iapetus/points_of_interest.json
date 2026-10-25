@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:iapetus/crashed_probe",
+      "weight": 4
+    },
+    {
+      "structure": "adastraplanets:iapetus/abandoned_camp",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:iapetus/meteorite_crater",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:iapetus/ice_cave",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:iapetus/alien_ruin",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 7,
+    "salt": 51738027
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dimensions": [
+    "adastraplanets:europa",
+    "adastraplanets:europa_orbit",
+    "adastraplanets:io",
+    "adastraplanets:io_orbit",
+    "adastraplanets:ganymede",
+    "adastraplanets:ganymede_orbit",
+    "adastraplanets:callisto",
+    "adastraplanets:callisto_orbit",
+    "adastraplanets:jupiter_orbit"
+  ],
+  "thermal": 3,
+  "pressure": 3,
+  "pressure_kind": "low"
+}

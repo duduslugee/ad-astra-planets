@@ -1,0 +1,24 @@
+{
+  "values": {
+    "adastraplanets:ancient_helmet": {
+      "armor": 4,
+      "toughness": 4,
+      "knockback_resistance": 0.1
+    },
+    "adastraplanets:ancient_chestplate": {
+      "armor": 9,
+      "toughness": 4,
+      "knockback_resistance": 0.1
+    },
+    "adastraplanets:ancient_leggings": {
+      "armor": 7,
+      "toughness": 4,
+      "knockback_resistance": 0.1
+    },
+    "adastraplanets:ancient_boots": {
+      "armor": 4,
+      "toughness": 4,
+      "knockback_resistance": 0.1
+    }
+  }
+}

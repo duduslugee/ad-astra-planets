@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "filled=false": {
+      "model": "adastraplanets:block/crystal_socket"
+    },
+    "filled=true": {
+      "model": "adastraplanets:block/crystal_socket_filled"
+    }
+  }
+}

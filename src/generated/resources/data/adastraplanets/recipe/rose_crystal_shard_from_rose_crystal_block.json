@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "adastraplanets:rose_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "adastraplanets:rose_crystal_shard"
+  }
+}

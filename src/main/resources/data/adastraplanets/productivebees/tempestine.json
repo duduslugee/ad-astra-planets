@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#5f7bb9",
+  "secondaryColor": "#313372",
+  "particleColor": "#a9caea",
+  "flowerTag": "c:storage_blocks/tempestine",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

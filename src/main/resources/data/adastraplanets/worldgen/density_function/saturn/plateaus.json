@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:mul",
+  "argument1": 0.125,
+  "argument2": {
+    "type": "minecraft:min",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": 92,
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": 28,
+            "argument2": "adastraplanets:saturn/regions"
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 10,
+          "argument2": {
+            "type": "minecraft:cache_2d",
+            "argument": {
+              "type": "adastraplanets:hex_columns",
+              "noise": "minecraft:surface",
+              "cell_size": 5,
+              "steps": 5,
+              "crack": 0.45,
+              "crack_depth": 1
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1,
+        "argument2": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": -64,
+          "to_y": 320,
+          "from_value": -64,
+          "to_value": 320
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -64,
+        "to_y": 320,
+        "from_value": -64,
+        "to_value": 320
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1,
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": 78,
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": -44,
+            "argument2": "adastraplanets:saturn/regions"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#bf93a2",
+  "secondaryColor": "#7d5a78",
+  "particleColor": "#eecfce",
+  "flowerTag": "c:storage_blocks/nitralis",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

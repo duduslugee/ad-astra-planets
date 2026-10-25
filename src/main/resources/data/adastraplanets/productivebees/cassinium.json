@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#c4ab7c",
+  "secondaryColor": "#634f31",
+  "particleColor": "#f1e5cc",
+  "flowerTag": "c:storage_blocks/cassinium",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

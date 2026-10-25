@@ -1,0 +1,133 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "adastraplanets:callisto_craters",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:charon_plains",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:charon_red_cap",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:deimos_dust_plains",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:dysnomia_fragments",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:enceladus_snow_plains",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:enceladus_tiger_stripes",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:eris_dunes",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:eris_mirror",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:europa_ice_shell",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:europa_subsurface_ocean",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:ganymede_dark_terrain",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:ganymede_grooved_terrain",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:iapetus_bright_face",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:iapetus_dark_face",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:io_sulfur_plains",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:miranda_coronae",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:miranda_patchwork",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:oberon_craters",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:oberon_highlands",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:phobos_grooves",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:pluto_blades",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:pluto_heart",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:rhea_craters",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:rhea_wispy_terrain",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:titan_dunes",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:titan_highlands",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:titan_lakes",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:titania_chasmata",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:titania_plains",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:triton_cantaloupe",
+      "required": false
+    },
+    {
+      "id": "adastraplanets:triton_polar_cap",
+      "required": false
+    }
+  ]
+}

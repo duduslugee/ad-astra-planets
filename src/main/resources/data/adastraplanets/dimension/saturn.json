@@ -1,0 +1,11 @@
+{
+  "type": "adastraplanets:saturn",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:saturn",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "adastraplanets:saturn_columns"
+    }
+  }
+}

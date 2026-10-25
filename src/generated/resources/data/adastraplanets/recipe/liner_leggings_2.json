@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "adastraplanets:liner_leggings_1"
+    },
+    "P": {
+      "tag": "ad_astra:ostrum_plates"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PLP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:liner_leggings_2"
+  }
+}

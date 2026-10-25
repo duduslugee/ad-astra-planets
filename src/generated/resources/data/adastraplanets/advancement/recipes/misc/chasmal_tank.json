@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chasmal_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:plates/chasmal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:chasmal_tank"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chasmal_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:chasmal_tank"
+    ]
+  }
+}

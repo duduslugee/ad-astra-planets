@@ -1,0 +1,10 @@
+{
+  "dimension": "adastraplanets:titania",
+  "gravity": 0.379,
+  "orbit": "adastraplanets:titania_orbit",
+  "oxygen": false,
+  "solar_power": 1,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -203,
+  "tier": 7
+}

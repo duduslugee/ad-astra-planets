@@ -1,0 +1,7 @@
+{
+  "type": "adastraplanets:bands",
+  "axis": "x",
+  "period": 320,
+  "warp": 28,
+  "warp_scale": 240
+}

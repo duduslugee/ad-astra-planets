@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/mosaicon"
+    },
+    "N": {
+      "item": "adastraplanets:ferrolith_nose_cone"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#N#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:mosaicon_nose_cone"
+  }
+}

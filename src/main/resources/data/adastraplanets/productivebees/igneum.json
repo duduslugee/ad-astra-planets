@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#bc6324",
+  "secondaryColor": "#73170e",
+  "particleColor": "#efbf5f",
+  "flowerTag": "c:storage_blocks/igneum",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

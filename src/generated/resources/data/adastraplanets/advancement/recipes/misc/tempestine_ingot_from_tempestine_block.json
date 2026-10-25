@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tempestine_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/tempestine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:tempestine_ingot_from_tempestine_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tempestine_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:tempestine_ingot_from_tempestine_block"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "adastraplanets:block/globe_cube",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "adastraplanets:block/globe/neptune_globe"
+  }
+}

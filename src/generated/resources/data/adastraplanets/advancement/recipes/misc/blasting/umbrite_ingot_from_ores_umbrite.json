@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_umbrite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/umbrite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/umbrite_ingot_from_ores_umbrite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_umbrite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/umbrite_ingot_from_ores_umbrite"
+    ]
+  }
+}

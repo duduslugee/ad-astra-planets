@@ -1,0 +1,111 @@
+{
+  "custom_clouds": false,
+  "custom_sky": true,
+  "custom_weather": false,
+  "dimension": "adastraplanets:jupiter",
+  "has_fog": true,
+  "has_thick_fog": false,
+  "render_in_rain": true,
+  "sky_renderables": [
+    {
+      "back_light_color": -39,
+      "back_light_scale": 12.0,
+      "blend": false,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 4.0,
+      "texture": "ad_astra:textures/environment/sun.png"
+    },
+    {
+      "back_light_color": -5592406,
+      "back_light_scale": 28.5,
+      "blend": false,
+      "global_rotation": [
+        20.0,
+        0.0,
+        160.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY_REVERSED",
+      "scale": 9.5,
+      "texture": "adastraplanets:textures/gui/planets/io.png"
+    },
+    {
+      "back_light_color": -5592406,
+      "back_light_scale": 20.1,
+      "blend": false,
+      "global_rotation": [
+        32.0,
+        30.0,
+        175.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 6.7,
+      "texture": "adastraplanets:textures/gui/planets/europa.png"
+    },
+    {
+      "back_light_color": -5592406,
+      "back_light_scale": 20.4,
+      "blend": false,
+      "global_rotation": [
+        44.0,
+        60.0,
+        190.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY_REVERSED",
+      "scale": 6.8,
+      "texture": "adastraplanets:textures/gui/planets/ganymede.png"
+    },
+    {
+      "back_light_color": -5592406,
+      "back_light_scale": 14.4,
+      "blend": false,
+      "global_rotation": [
+        56.0,
+        90.0,
+        205.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 4.8,
+      "texture": "adastraplanets:textures/gui/planets/callisto.png"
+    }
+  ],
+  "star_brightness": 0.0,
+  "star_colors": [
+    {
+      "data": -1,
+      "weight": 1
+    }
+  ],
+  "stars": 20,
+  "sunrise_angle": 0,
+  "sunrise_color": 14180147
+}

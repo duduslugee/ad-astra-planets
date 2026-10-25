@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:titan/library_of_the_rings",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 30,
+    "salt": 61937719,
+    "exclusion_zone": {
+      "other_set": "adastraplanets:titan/points_of_interest",
+      "chunk_count": 6
+    }
+  }
+}

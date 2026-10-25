@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "adastraplanets:item/rocket_part/nose_cone",
+    "layer1": "adastraplanets:item/rocket_part/nose_cone_fittings"
+  }
+}

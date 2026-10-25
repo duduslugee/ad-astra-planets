@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#baa17d",
+  "secondaryColor": "#755848",
+  "particleColor": "#eadfbe",
+  "flowerTag": "c:storage_blocks/cordium",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

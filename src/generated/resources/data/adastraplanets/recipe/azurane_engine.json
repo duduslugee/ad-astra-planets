@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/azurane"
+    },
+    "D": {
+      "item": "adastraplanets:pressure_diamond"
+    },
+    "E": {
+      "item": "adastraplanets:tholinar_engine"
+    }
+  },
+  "pattern": [
+    "###",
+    "#E#",
+    "#D#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:azurane_engine"
+  }
+}

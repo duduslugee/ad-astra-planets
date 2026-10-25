@@ -1,0 +1,11 @@
+{
+  "type": "adastraplanets:callisto",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "adastraplanets:callisto",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "adastraplanets:callisto_craters"
+    }
+  }
+}

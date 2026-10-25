@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_stormium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/stormium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:blasting/stormium_ingot_from_ores_stormium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_stormium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:blasting/stormium_ingot_from_ores_stormium"
+    ]
+  }
+}

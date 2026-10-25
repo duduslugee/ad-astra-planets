@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cordium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/cordium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:cordium_ingot_from_cordium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cordium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:cordium_ingot_from_cordium_block"
+    ]
+  }
+}

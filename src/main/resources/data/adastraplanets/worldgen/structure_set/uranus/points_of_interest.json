@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "adastraplanets:uranus/crashed_probe",
+      "weight": 4
+    },
+    {
+      "structure": "adastraplanets:uranus/abandoned_camp",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:uranus/meteorite_crater",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:uranus/ice_cave",
+      "weight": 3
+    },
+    {
+      "structure": "adastraplanets:uranus/alien_ruin",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 7,
+    "salt": 51738027
+  }
+}

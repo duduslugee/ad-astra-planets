@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:tholinar_ingot_from_tholinar_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tholinar_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/tholinar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tholinar_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:tholinar_ingot_from_tholinar_block"
+    ]
+  }
+}

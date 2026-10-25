@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ores_azurane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/azurane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:smelting/azurane_ingot_from_ores_azurane"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ores_azurane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:smelting/azurane_ingot_from_ores_azurane"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "tag": "c:ores/umbrite"
+  },
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:umbrite_ingot"
+  }
+}

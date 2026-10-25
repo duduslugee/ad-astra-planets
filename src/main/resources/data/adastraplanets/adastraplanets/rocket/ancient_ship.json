@@ -1,0 +1,12 @@
+{
+  "tier": 100,
+  "fuel": "adastraplanets:ancient_ship_fuel",
+  "fuel_capacity": 1,
+  "launch_cost": 0,
+  "efficient_fuel": "adastraplanets:ancient_ship_fuel",
+  "efficient_launch_cost": 0,
+  "acceleration": 0.01,
+  "max_speed": 1.6,
+  "riding_offset": 6.3625,
+  "launch_pads": "#ad_astra:launch_pads"
+}

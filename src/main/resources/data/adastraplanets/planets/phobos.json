@@ -1,0 +1,10 @@
+{
+  "dimension": "adastraplanets:phobos",
+  "gravity": 0.6,
+  "orbit": "adastraplanets:phobos_orbit",
+  "oxygen": false,
+  "solar_power": 12,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -40,
+  "tier": 2
+}

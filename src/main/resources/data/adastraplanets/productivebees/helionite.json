@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#b0722b",
+  "secondaryColor": "#682c12",
+  "particleColor": "#e2bf68",
+  "flowerTag": "c:storage_blocks/helionite",
+  "size": 0.8,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

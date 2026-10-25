@@ -1,0 +1,8 @@
+{
+  "parent": "adastraplanets:block/ore_overlay",
+  "textures": {
+    "base": "adastraplanets:block/mirror_rock",
+    "overlay": "adastraplanets:block/albedon_ore_overlay",
+    "particle": "adastraplanets:block/mirror_rock"
+  }
+}

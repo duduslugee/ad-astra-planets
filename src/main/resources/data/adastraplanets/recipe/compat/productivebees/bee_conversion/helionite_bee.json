@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:calorite"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "adastraplanets:helionite"
+    }
+  ],
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:calorite",
+  "result": "adastraplanets:helionite",
+  "item": {
+    "tag": "c:storage_blocks/helionite"
+  }
+}

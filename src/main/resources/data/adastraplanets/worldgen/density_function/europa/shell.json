@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:min",
+  "argument1": {
+    "type": "minecraft:min",
+    "argument1": "adastraplanets:europa/shell_top",
+    "argument2": "adastraplanets:europa/shell_bottom"
+  },
+  "argument2": "adastraplanets:europa/ice_caves"
+}

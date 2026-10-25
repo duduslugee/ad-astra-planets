@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus"
+    }
+  ],
+  "type": "hephaestus:casting_table",
+  "cast": {
+    "item": "hephaestus:ingot_cast"
+  },
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 90,
+    "id": "adastraplanets:molten_tholinar"
+  },
+  "result": "adastraplanets:tholinar_ingot"
+}

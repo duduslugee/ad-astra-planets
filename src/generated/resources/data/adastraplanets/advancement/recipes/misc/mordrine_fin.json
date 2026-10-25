@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mordrine_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:plates/mordrine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adastraplanets:mordrine_fin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mordrine_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adastraplanets:mordrine_fin"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ],
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:light_gray_laser_lens"
+  },
+  "output": {
+    "count": 1,
+    "tag": "c:raw_materials/cassinium"
+  },
+  "rarity": [
+    {
+      "biome_filter": {
+        "blacklist": [],
+        "whitelist": []
+      },
+      "depth_min": 40,
+      "depth_max": 140,
+      "dimension_filter": {
+        "blacklist": [],
+        "whitelist": [
+          "adastraplanets:saturn"
+        ]
+      },
+      "weight": 8
+    }
+  ]
+}

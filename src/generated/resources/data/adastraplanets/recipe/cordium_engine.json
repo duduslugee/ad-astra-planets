@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/cordium"
+    },
+    "E": {
+      "item": "adastraplanets:tempestine_engine"
+    }
+  },
+  "pattern": [
+    "###",
+    "#E#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:cordium_engine"
+  }
+}

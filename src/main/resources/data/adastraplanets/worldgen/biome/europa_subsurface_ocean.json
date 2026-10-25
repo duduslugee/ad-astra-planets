@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": -1.0,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 0,
+    "sky_color": 1447444,
+    "water_color": 2779519,
+    "water_fog_color": 331548,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:underwater"
+      },
+      "probability": 0.012
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "adastraplanets:hydrothermal_vent"
+    ],
+    [],
+    [],
+    []
+  ]
+}

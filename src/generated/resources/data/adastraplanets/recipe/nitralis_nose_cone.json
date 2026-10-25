@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:plates/nitralis"
+    },
+    "N": {
+      "item": "adastraplanets:mosaicon_nose_cone"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#N#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:nitralis_nose_cone"
+  }
+}

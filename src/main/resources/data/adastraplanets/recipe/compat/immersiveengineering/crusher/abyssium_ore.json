@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/abyssium"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:raw_materials/abyssium"
+    },
+    "count": 2
+  },
+  "secondaries": []
+}

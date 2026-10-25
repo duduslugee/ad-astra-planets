@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "adastraplanets:phobos_grooves",
+    "adastraplanets:deimos_dust_plains"
+  ],
+  "features": "adastraplanets:ember_geode",
+  "step": "local_modifications"
+}

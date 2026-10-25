@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket",
+  "apply_tint": true,
+  "fluid": "adastraplanets:molten_mordrine",
+  "loader": "neoforge:fluid_container"
+}

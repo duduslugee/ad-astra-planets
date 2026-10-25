@@ -1,0 +1,10 @@
+{
+  "dimension": "demo:ember",
+  "gravity": 5.0,
+  "oxygen": false,
+  "solar_power": 20,
+  "solar_system": "demo:ember_system",
+  "temperature": 120,
+  "tier": 5,
+  "orbit": "demo:ember_orbit"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "tag": "ad_astra:steel_plates"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "W W",
+    "S S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adastraplanets:liner_boots_1"
+  }
+}

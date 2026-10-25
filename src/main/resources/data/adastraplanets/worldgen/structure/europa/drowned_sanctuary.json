@@ -1,0 +1,19 @@
+{
+  "type": "adastraplanets:levelled_jigsaw",
+  "biomes": [
+    "adastraplanets:europa_ice_shell",
+    "adastraplanets:europa_subsurface_ocean"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "adastraplanets:europa/drowned_sanctuary",
+  "size": 1,
+  "offset": -95,
+  "footprint_radius": 12,
+  "max_slope": 8,
+  "anchor": [
+    0,
+    -36
+  ]
+}

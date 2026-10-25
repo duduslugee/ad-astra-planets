@@ -1,0 +1,15 @@
+name: Suggestion / Sugestão
+description: An idea, a balance change or a compatibility request / Uma ideia, mudança de balanceamento ou pedido de compatibilidade
+labels: [suggestion]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Sua ideia
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? / Por quê?
+      description: What it would make better, in your game or modpack. / O que melhoraria no seu jogo ou modpack.
