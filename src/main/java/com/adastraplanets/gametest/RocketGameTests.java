@@ -5,20 +5,25 @@ import com.adastraplanets.registry.ModEntityTypes;
 import com.adastraplanets.rocket.RocketDefinition;
 import com.adastraplanets.rocket.RocketDefinitions;
 import com.adastraplanets.rocket.TieredRocket;
+import earth.terrarium.adastra.common.entities.vehicles.Rocket;
 import earth.terrarium.adastra.common.registry.ModFluids;
+import earth.terrarium.common_storage_lib.fluid.FluidApi;
 import earth.terrarium.common_storage_lib.resources.fluid.FluidResource;
 import earth.terrarium.common_storage_lib.resources.fluid.util.FluidAmounts;
 import earth.terrarium.common_storage_lib.storage.base.CommonStorage;
 import com.adastraplanets.api.event.RocketLaunchEvent;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.gametest.framework.GameTest;
 import net.minecraft.gametest.framework.GameTestHelper;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.GameType;
 import net.minecraft.world.level.material.Fluids;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.gametest.GameTestHolder;
 import net.neoforged.neoforge.gametest.PrefixGameTestTemplate;
@@ -36,6 +41,41 @@ public final class RocketGameTests {
         TieredRocket rocket = helper.spawn(ModEntityTypes.TIER_5_ROCKET.get(), BlockPos.ZERO.above());
         helper.assertTrue(rocket.tier() == definition.tier(), "rocket tier does not follow its definition");
         helper.succeed();
+    }
+
+    /** Every defined rocket is listed in Ad Astra's rocket properties, with its definition's tier and fuel. */
+    @GameTest(template = EMPTY)
+    public static void rocketsAreListedWithAdAstras(GameTestHelper helper) {
+        StringBuilder problems = new StringBuilder();
+        ModEntityTypes.rockets().forEach((id, holder) -> {
+            RocketDefinition definition = RocketDefinitions.get(holder.get());
+            Rocket.RocketProperties properties = Rocket.ROCKET_TO_PROPERTIES.get(holder.get());
+            if (definition != null && (properties == null || properties.tier() != definition.tier()
+                    || !properties.fuel().equals(definition.fuel()))) {
+                problems.append(id).append(" is not listed with its definition; ");
+            }
+        });
+        helper.assertTrue(problems.isEmpty(), problems.toString());
+        helper.succeed();
+    }
+
+    /** With Ad Astra: Giselle Addon, its fuel loader fills a tier 5 rocket standing in its range. */
+    @GameTest(template = EMPTY, timeoutTicks = 200)
+    public static void fuelLoaderFillsTier5(GameTestHelper helper) {
+        if (!ModList.get().isLoaded("ad_astra_giselle_addon")) {
+            helper.succeed();
+            return;
+        }
+        BlockPos loader = new BlockPos(0, 1, 0);
+        helper.setBlock(loader, BuiltInRegistries.BLOCK.get(ResourceLocation.fromNamespaceAndPath("ad_astra_giselle_addon", "fuel_loader")));
+        CommonStorage<FluidResource> loaderTank = FluidApi.BLOCK.find(helper.getLevel(), helper.absolutePos(loader), null);
+        helper.assertTrue(loaderTank != null, "the fuel loader has no tank");
+        long amount = FluidAmounts.toPlatformAmount(1000);
+        long stored = loaderTank.insert(FluidResource.of(ModFluids.FUEL.get()), amount, false);
+        helper.assertTrue(stored > 0, "the fuel loader took no fuel");
+        TieredRocket rocket = helper.spawn(ModEntityTypes.TIER_5_ROCKET.get(), new BlockPos(2, 1, 0));
+        helper.succeedWhen(() -> helper.assertTrue(rocket.fluidContainer().getResource(0).getType() == ModFluids.FUEL.get()
+                && rocket.fluidContainer().get(0).getAmount() > 0, "the rocket was not refuelled"));
     }
 
     @GameTest(template = EMPTY)

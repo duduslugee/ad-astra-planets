@@ -14,5 +14,22 @@
   "acceleration": 0.005,
   "max_speed": 1.0,
   "riding_offset": 1.8,
-  "launch_pads": "#ad_astra:launch_pads"
+  "launch_pads": "#ad_astra:launch_pads",
+  "exhausts": [
+    {
+      "x": 0,
+      "z": 0,
+      "size": 1
+    },
+    {
+      "x": -1.3125,
+      "z": 0,
+      "size": 0.5
+    },
+    {
+      "x": 1.3125,
+      "z": 0,
+      "size": 0.5
+    }
+  ]
 }

@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1
+
+- Flame and smoke now leave from every booster, not only the central engine (`exhausts` in each rocket's JSON).
+- **Fix:** fuel loaders (Ad Astra: Giselle Addon) now fill this addon's rockets on the launch pad and accept their
+  fuels: the rockets are listed in Ad Astra's rocket table, where other mods look them up.
+- **Mystical Extended Tier**: with it installed, each metal's crop takes the tier of the world the metal comes from
+  (tier 1 to 10; Tier 6 needs Mystical Agradditions, otherwise Tier 5). Plain Mystical Agriculture keeps tiers 3 to 5.
+- **C2ME**: with its OpenCL module installed and `allowIncompatibilityFallback` off, loading stops with a message naming
+  both fixes (remove the module, or turn the option on) instead of crashing on world creation.
+
 ## 1.0.0 — first release (Minecraft 1.21.1, NeoForge)
 
 ### Rockets and launch pads

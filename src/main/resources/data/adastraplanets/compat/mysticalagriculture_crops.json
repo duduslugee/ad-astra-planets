@@ -1,94 +1,117 @@
 {
   "pallorite": {
     "tier": 3,
+    "world_tier": 2,
     "colour": "#c3b398"
   },
   "umbrite": {
     "tier": 3,
+    "world_tier": 2,
     "colour": "#664746"
   },
   "helionite": {
     "tier": 3,
+    "world_tier": 4,
     "colour": "#b0722b"
   },
   "abyssium": {
     "tier": 4,
+    "world_tier": 5,
     "colour": "#2ba3a6"
   },
   "aurorium": {
     "tier": 4,
+    "world_tier": 5,
     "colour": "#4bb3c3"
   },
   "eonyx": {
     "tier": 4,
+    "world_tier": 5,
     "colour": "#9c8456"
   },
   "igneum": {
     "tier": 4,
+    "world_tier": 5,
     "colour": "#bc6324"
   },
   "stormium": {
     "tier": 4,
+    "world_tier": 5,
     "colour": "#c66e3e"
   },
   "cassinium": {
     "tier": 4,
+    "world_tier": 6,
     "colour": "#c4ab7c"
   },
   "ferrolith": {
     "tier": 4,
+    "world_tier": 6,
     "colour": "#9d9c9c"
   },
   "nivalum": {
     "tier": 4,
+    "world_tier": 6,
     "colour": "#789cc1"
   },
   "tholinar": {
     "tier": 4,
+    "world_tier": 6,
     "colour": "#bd6f2c"
   },
   "vesperine": {
     "tier": 4,
+    "world_tier": 6,
     "colour": "#a68b80"
   },
   "azurane": {
     "tier": 5,
+    "world_tier": 7,
     "colour": "#69a8ba"
   },
   "chasmal": {
     "tier": 5,
+    "world_tier": 7,
     "colour": "#b78b88"
   },
   "mosaicon": {
     "tier": 5,
+    "world_tier": 7,
     "colour": "#89a8b9"
   },
   "obscurex": {
     "tier": 5,
+    "world_tier": 7,
     "colour": "#a26b7e"
   },
   "nitralis": {
     "tier": 5,
+    "world_tier": 8,
     "colour": "#bf93a2"
   },
   "tempestine": {
     "tier": 5,
+    "world_tier": 8,
     "colour": "#5f7bb9"
   },
   "cordium": {
     "tier": 5,
+    "world_tier": 9,
     "colour": "#baa17d"
   },
   "mordrine": {
     "tier": 5,
+    "world_tier": 9,
     "colour": "#b06d6a"
   },
   "albedon": {
     "tier": 5,
+    "world_tier": 10,
     "colour": "#a7b8c6"
   },
   "shardex": {
     "tier": 5,
+    "world_tier": 10,
     "colour": "#909bb7"
   }
 }

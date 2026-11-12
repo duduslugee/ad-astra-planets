@@ -59,7 +59,8 @@ Tudo opcional; cada receita só carrega com o mod dela instalado.
 - **Create**: prensa e moagem. **Mekanism**: enriquecimento. **Immersive Engineering**: prensa de metal e triturador.
 - **Modern Industrialization**: macerador e compressor. **Ender IO**: moinho SAG. **PneumaticCraft**: câmara de pressão.
 - **Industrial Foregoing**: laser drill, no mundo de onde cada minério vem.
-- **Mystical Agriculture**: uma semente para cada metal. **Productive Bees**: uma abelha para cada metal, criada ao
+- **Mystical Agriculture**: uma semente para cada metal; com o **Mystical Extended Tier**, o tier de cada semente é o
+  tier do mundo de onde vem o metal (1 a 10). **Productive Bees**: uma abelha para cada metal, criada ao
   longo da progressão.
 - **Hephaestus Forge** e **Productive Metalworks**: os metais derretem e são moldados (lingotes, pepitas, placas,
   blocos).

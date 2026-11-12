@@ -150,6 +150,12 @@ dependencies {
     compileOnly "maven.modrinth:mystical-agriculture:${mystical_agriculture_version}"
     compileOnly "maven.modrinth:cucumber:${cucumber_version}"
 
+    // C2ME, to check the message about its OpenCL module (-Pc2meTest; the module itself, c2me-ocl, needs Java 25
+    // and comes as a container jar that dev runs skip, so the check was tried against base C2ME)
+    if (project.hasProperty('c2meTest')) {
+        localRuntime "maven.modrinth:c2me-neoforge:${c2me_version}"
+    }
+
     // Tech mods our optional compat recipes are for: only with -PcompatTest, to check those recipes load
     // (./gradlew runGameTestServer -PcompatTest); never needed to build or play
     if (project.hasProperty('compatTest')) {
@@ -162,6 +168,8 @@ dependencies {
         localRuntime "maven.modrinth:refined-storage:${refined_storage_version}"
         localRuntime "maven.modrinth:cucumber:${cucumber_version}"
         localRuntime "maven.modrinth:mystical-agriculture:${mystical_agriculture_version}"
+        localRuntime "maven.modrinth:mystical-agradditions:${mystical_agradditions_version}"
+        localRuntime "curse.maven:mystical-extended-tier-1232977:${mystical_extended_tier_file}"
         localRuntime "maven.modrinth:productivebees:${productive_bees_version}"
         localRuntime "maven.modrinth:placebo:${placebo_version}"
         localRuntime "maven.modrinth:patchouli:${patchouli_version}"
@@ -183,6 +191,7 @@ dependencies {
         localRuntime "curse.maven:productive-metalworks-1184570:${productive_metalworks_file}"
         localRuntime "maven.modrinth:athena-ctm:${athena_version}"
         localRuntime "curse.maven:hephaestus-forge-1542467:${hephaestus_forge_file}"
+        localRuntime "maven.modrinth:ad-astra-giselle-addon:${giselle_addon_version}"
     }
 }
 

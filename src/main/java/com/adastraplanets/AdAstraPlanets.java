@@ -40,6 +40,8 @@ public final class AdAstraPlanets {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public AdAstraPlanets(IEventBus modBus, ModContainer container) {
+        // C2ME's OpenCL module crashes on this mod's terrain unless its fallback is on: say so before it happens
+        modBus.addListener((net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent event) -> com.adastraplanets.compat.C2meOpenClCheck.check());
         // development check of the landmarks as the world builds them (the verifyStructures run)
         if (com.adastraplanets.debug.StructureVerifier.enabled()) {
             net.neoforged.neoforge.common.NeoForge.EVENT_BUS.register(com.adastraplanets.debug.StructureVerifier.class);

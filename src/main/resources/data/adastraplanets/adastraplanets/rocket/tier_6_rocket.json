@@ -14,5 +14,32 @@
   "acceleration": 0.0055,
   "max_speed": 1.1,
   "riding_offset": 7.4875,
-  "launch_pads": "#adastraplanets:large_launch_pads"
+  "launch_pads": "#adastraplanets:large_launch_pads",
+  "exhausts": [
+    {
+      "x": 0,
+      "z": 0,
+      "size": 1
+    },
+    {
+      "x": -1.375,
+      "z": -1.375,
+      "size": 0.35
+    },
+    {
+      "x": -1.375,
+      "z": 1.375,
+      "size": 0.35
+    },
+    {
+      "x": 1.375,
+      "z": -1.375,
+      "size": 0.35
+    },
+    {
+      "x": 1.375,
+      "z": 1.375,
+      "size": 0.35
+    }
+  ]
 }

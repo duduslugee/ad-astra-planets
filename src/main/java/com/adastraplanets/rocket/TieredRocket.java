@@ -2,6 +2,7 @@ package com.adastraplanets.rocket;
 
 import earth.terrarium.adastra.common.entities.vehicles.Rocket;
 import earth.terrarium.adastra.common.registry.ModDataManagers;
+import earth.terrarium.adastra.common.registry.ModParticleTypes;
 import earth.terrarium.common_storage_lib.fluid.impl.SimpleFluidStorage;
 import earth.terrarium.common_storage_lib.fluid.util.FluidStorageData;
 import earth.terrarium.common_storage_lib.resources.fluid.FluidResource;
@@ -9,12 +10,15 @@ import earth.terrarium.common_storage_lib.resources.fluid.util.FluidAmounts;
 import earth.terrarium.common_storage_lib.storage.base.CommonStorage;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Direction;
+import net.minecraft.core.particles.ParticleOptions;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.TagKey;
+import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.EntityType;
@@ -109,6 +113,43 @@ public class TieredRocket extends Rocket implements GeoEntity {
         int cost = fuel.is(definition.efficientFuel()) ? definition.efficientLaunchCost() : definition.launchCost();
         long amount = FluidAmounts.toPlatformAmount(cost);
         return this.tank.extract(fuel, amount, simulate) >= amount;
+    }
+
+    /** Countdown smoke, from every exhaust of the definition instead of only under the centre. */
+    @Override
+    public void spawnSmokeParticles() {
+        this.spawnExhaust(6, 0, 0);
+    }
+
+    /** Flight flame and smoke, from every exhaust of the definition. */
+    @Override
+    public void spawnRocketParticles() {
+        this.spawnExhaust(0, 20, 5);
+    }
+
+    /** Ad Astra's counts per tick for a whole engine, shared out by each exhaust's size. */
+    private void spawnExhaust(int countdownSmoke, int flames, int smoke) {
+        if (!this.level().isClientSide()) {
+            return;
+        }
+        RocketDefinition definition = this.definition();
+        float yaw = this.getYRot() * Mth.DEG_TO_RAD;
+        float sin = Mth.sin(yaw), cos = Mth.cos(yaw);
+        for (RocketDefinition.Exhaust exhaust : definition == null ? RocketDefinition.CENTRE : definition.exhausts()) {
+            double x = this.getX() + exhaust.x() * cos - exhaust.z() * sin;
+            double z = this.getZ() + exhaust.x() * sin + exhaust.z() * cos;
+            double y = this.getY() + exhaust.y();
+            this.emit(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y + 0.75, z, Math.round(countdownSmoke * exhaust.size()));
+            this.emit(ModParticleTypes.LARGE_FLAME.get(), x, y, z, Math.round(flames * exhaust.size()));
+            this.emit(ModParticleTypes.LARGE_SMOKE.get(), x, y, z, Math.round(smoke * exhaust.size()));
+        }
+    }
+
+    private void emit(ParticleOptions particle, double x, double y, double z, int count) {
+        for (int i = 0; i < count; i++) {
+            this.level().addParticle(particle, x, y, z, Mth.nextDouble(this.random, -0.05, 0.05),
+                    Mth.nextDouble(this.random, -0.05, 0.05), Mth.nextDouble(this.random, -0.05, 0.05));
+        }
     }
 
     @Override

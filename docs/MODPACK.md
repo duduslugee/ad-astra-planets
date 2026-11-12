@@ -36,6 +36,10 @@ Everything this addon adds can be tuned or replaced without touching code. Where
 require the 5x5 Large Launch Pad (tiers 6-7 do) or `#adastraplanets:huge_launch_pads` for the 7x7 Huge one (tiers
 8-10; it counts as large too). A rocket reaches any planet whose `tier` is at or below its own.
 
+Optional `exhausts` lists where flame and smoke leave the rocket: `{"x": 1.3, "z": 0, "size": 0.5}` per engine or
+booster, in blocks from the rocket's centre (`y` defaults to -0.75), `size` being its share of a full engine's
+particles. Without it, everything leaves from under the centre, as on Ad Astra's rockets.
+
 Defaults: tank and launch cost 3000, 4000, 5000, 6000, 7000, 8000 mB for tiers 5 to 10, efficient fuel at 40%,
 acceleration and top speed rising with the tier. The Ancients' Ship (`ancient_ship.json`) is tier 100 with
 `"launch_cost": 0` and an empty fuel tag: it launches with an empty tank. A rocket's animation file may hold
@@ -224,7 +228,8 @@ file with a datapack.
 - Replication: matter values (metallic, plus precious rising with the world's tier).
 - Applied Energistics 2: the rocky worlds' biomes are added to `ae2:has_meteorites`.
 - Mystical Agriculture: a crop per metal; tiers and colours in `data/adastraplanets/compat/mysticalagriculture_crops.json`
-  (read at startup); turn crops off with Mystical Agriculture's own config.
+  (read at startup); turn crops off with Mystical Agriculture's own config. With Mystical Extended Tier installed, each
+  crop moves to `world_tier` (Tier 6 comes from Mystical Agradditions; without it, the highest tier below).
 - Productive Bees: a bee per metal (`data/adastraplanets/productivebees/<metal>.json`), converted from the previous
   tier's bee by feeding it a block of the new metal (the first from Productive Bees' Ad Astra bees).
 - Hephaestus Forge and Productive Metalworks: melting and casting into the molten metals `adastraplanets:molten_<metal>`

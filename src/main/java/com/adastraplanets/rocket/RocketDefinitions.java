@@ -3,8 +3,11 @@ package com.adastraplanets.rocket;
 import com.adastraplanets.AdAstraPlanets;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.adastraplanets.registry.ModEntityTypes;
+import com.adastraplanets.registry.ModItems;
 import com.google.gson.JsonElement;
 import com.mojang.serialization.JsonOps;
+import earth.terrarium.adastra.common.entities.vehicles.Rocket;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.RegistryOps;
@@ -51,6 +54,7 @@ public final class RocketDefinitions extends SimpleJsonResourceReloadListener {
                         value -> loaded.put(id, value),
                         () -> AdAstraPlanets.LOGGER.info("Rocket definition {} skipped by its conditions", id))));
         definitions = Map.copyOf(loaded);
+        publishProperties();
         AdAstraPlanets.LOGGER.info("Loaded {} rocket definitions", loaded.size());
     }
 
@@ -60,6 +64,23 @@ public final class RocketDefinitions extends SimpleJsonResourceReloadListener {
 
     static void replaceAll(Map<ResourceLocation, RocketDefinition> synced) {
         definitions = Map.copyOf(synced);
+        publishProperties();
+    }
+
+    /**
+     * Mirrors each defined rocket into Ad Astra's {@link Rocket#ROCKET_TO_PROPERTIES} (tier, item, fuel tag), where
+     * other mods look rockets up: a fuel loader, for one, only fills rockets listed there and only takes their fuels.
+     */
+    private static void publishProperties() {
+        ModEntityTypes.rockets().forEach((id, holder) -> {
+            RocketDefinition definition = definitions.get(id);
+            if (definition == null) {
+                Rocket.ROCKET_TO_PROPERTIES.remove(holder.get());
+            } else {
+                Rocket.ROCKET_TO_PROPERTIES.put(holder.get(), new Rocket.RocketProperties(definition.tier(),
+                        ModItems.rocketItem(id.getPath()), definition.ridingOffset(), definition.fuel()));
+            }
+        });
     }
 
     @Nullable

@@ -59,7 +59,8 @@ All optional; each recipe loads only when its mod is installed.
 - **Create**: pressing and crushing. **Mekanism**: enriching. **Immersive Engineering**: metal press and crusher.
 - **Modern Industrialization**: macerator and compressor. **Ender IO**: SAG mill. **PneumaticCraft**: pressure chamber.
 - **Industrial Foregoing**: laser drill, on the world each ore comes from.
-- **Mystical Agriculture**: a crop for every metal. **Productive Bees**: a bee for every metal, bred along the
+- **Mystical Agriculture**: a crop for every metal; with **Mystical Extended Tier**, each crop's tier is the tier of
+  the world its metal comes from (1 to 10). **Productive Bees**: a bee for every metal, bred along the
   progression.
 - **Hephaestus Forge** and **Productive Metalworks**: the metals melt and cast (ingots, nuggets, plates, blocks).
 - **Replication**: matter values. **Applied Energistics 2**: meteorites on the rocky worlds.
